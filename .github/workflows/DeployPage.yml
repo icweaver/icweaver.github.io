@@ -14,14 +14,14 @@ jobs:
       with:
         version: 1
     - run: julia -e '
-            import Pkg; Pkg.activate("page/Project.toml"); Pkg.instantiate();
+            import Pkg; Pkg.activate("docs/Project.toml"); Pkg.instantiate();
             using NodeJS;
             run(`$(npm_cmd()) install highlight.js purgecss`);
             import PkgPage;
-            PkgPage.optimize(input="page", output="")'
-    - run: touch page/__site/.nojekyll
+            PkgPage.optimize(input="docs", output="")'
+    - run: touch docs/__site/.nojekyll
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v4
       with:
         BRANCH: gh-pages
-        FOLDER: page/__site
+        FOLDER: docs/__site
