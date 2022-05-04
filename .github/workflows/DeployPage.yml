@@ -23,5 +23,5 @@ jobs:
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v4
       with:
-        BRANCH: main
-        FOLDER: docs/__site
+        BRANCH: gh-pages
+        FOLDER: page/__site
