@@ -2,6 +2,7 @@ name: Build and Deploy
 on:
   push:
     branches:
+      - master
       - main
 jobs:
   build-and-deploy:
@@ -12,16 +13,16 @@ jobs:
     - name: Install Julia
       uses: julia-actions/setup-julia@v1
       with:
-        version: 1
+        version: 1.5
     - run: julia -e '
-            import Pkg; Pkg.activate("docs/Project.toml"); Pkg.instantiate();
+            import Pkg; Pkg.activate("page/Project.toml"); Pkg.instantiate();
             using NodeJS;
             run(`$(npm_cmd()) install highlight.js purgecss`);
             import PkgPage;
-            PkgPage.optimize(input="docs", output="")'
-    - run: touch docs/__site/.nojekyll
+            PkgPage.optimize(input="page", output="")'
+    - run: touch page/__site/.nojekyll
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v4
       with:
-        BRANCH: main
-        FOLDER: docs/__site
+        BRANCH: gh-pages
+        FOLDER: page/__site
