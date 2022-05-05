@@ -18,13 +18,12 @@ The latter allows you to plug in values that you would have defined here.
              `prepath` to an empty string. Finally, adjust this if you want the
              deployed page to be in a subfolder e.g.: `YourPackage.jl/web/`.
 -->
-@def title       = "PkgPage.jl"
+@def title       = "Ian Weaver, PhD"
 @def prepath     = ""
 @def description = """
-                   Create a beautiful landing page for your package in less
-                   than 10 minutes.
+                   science, software, s'mores
                    """
-@def authors     = "Thibaut Lienart and Zlatan Vasović"
+@def authors     = "Ian Weaver"
 
 <!--  NAVBAR SPECS
   NOTE:
@@ -39,7 +38,7 @@ The latter allows you to plug in values that you would have defined here.
 @def docs_url  = "https://franklinjl.org/"
 @def docs_name = "Docs"
 
-@def add_nav_logo   = true
+@def add_nav_logo   = false
 @def nav_logo_path  = "/assets/logo.svg"
 @def nav_logo_alt   = "Logo"
 @def nav_logo_style = """
@@ -85,8 +84,8 @@ The latter allows you to plug in values that you would have defined here.
 @def hero_width         = "80%"
 @def hero_margin_top    = "100px"
 
-@def add_github_view  = true
-@def add_github_star  = true
+@def add_github_view  = false
+@def add_github_star  = false
 @def github_repo      = "tlienart/PkgPage.jl"
 
 <!-- SECTION LAYOUT
