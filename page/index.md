@@ -32,8 +32,10 @@ Python package for numerical integration, powered by [automatic differentiation]
 \begin{center}
   \figure{
     path = "/assets/nice_image.jpg",
-    caption = "Integrated orbit of a hypothetical three-body star-planet-moon system via s=2 Adams-Moulton method.
-    This is motivated by the first potential discovery of an exomoon made not too long ago."
+    caption = "Particle stream trajectory in a binary Roche Potential with artificial energy loss every time step. This
+    was done to mimic the energy that is lost to shocks and other collisions in real fluid interactions. This was done
+    by having the test particle lose energy while maintaining its angular momentum. I also added a little kick in the z
+    component of the particle's initial velocity to make it a little more fun to watch."
   }
 \end{center}
 \end{column}
@@ -43,7 +45,10 @@ Python package for numerical integration, powered by [automatic differentiation]
 \begin{center}
   \figure{
     path = "/assets/nice_image.jpg",
-    caption = "The same integration method applied to the Lotka–Volterra system of differential equations describing population growth."
+    caption = "op-down plot of the same code applied to WASP-12/b (to scale). I waited until a full orbit to turn on the
+    artificial energy loss to mimic one full lap of the accretion stream before colliding with itself. The corners due
+    to the Coriolis force are clearly scene and the orbit settles down into its circularization radius (in green), as
+    predicted from angular momentum conservation."
   }
 \end{center}
 \end{column}
@@ -57,17 +62,19 @@ Python package for numerical integration, powered by [automatic differentiation]
   \figure{
     path = "/assets/nice_image.jpg",
     caption = "Integrated orbit of a hypothetical three-body star-planet-moon system via s=2 Adams-Moulton method.
-    This is motivated by the first potential discovery of an exomoon made not too long ago."
   }
 \end{center}
 \end{column}
 
 \begin{column}{}
-**_WASP-12/b system_**
+**_WASP-12/b 3D_**
 \begin{center}
   \figure{
     path = "/assets/nice_image.jpg",
-    caption = "The same integration method applied to the Lotka–Volterra system of differential equations describing population growth."
+    caption = "I adapted the hydro simulation to 3D to create the image above. This is an isodensity contour plot taken
+    partway through the simulation. The location of L1 can be seen as the orange-yellow sphere towards the bottom left.
+    These simulations were used to create virtual light curves to compare with observations from HST's Cosmic Origins
+    Spectrograph."
   }
 \end{center}
 \end{column}
