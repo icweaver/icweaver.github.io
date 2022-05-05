@@ -21,7 +21,7 @@ The latter allows you to plug in values that you would have defined here.
 @def title       = "Ian Weaver, PhD"
 @def prepath     = ""
 @def description = """
-                   science, software, s'mores
+                   software, science, s'mores
                    """
 @def authors     = "Ian Weaver"
 

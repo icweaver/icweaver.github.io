@@ -42,6 +42,27 @@ Python package for numerical integration, powered by [automatic differentiation]
 \end{columns}
 \end{section}
 
+## [Accretion disk fluid simulations](https://github.com/icweaver/particle_trajectory)
+\begin{columns}
+\begin{column}{}
+**_Artificial energy loss_**
+\begin{center}
+  \figure{
+      path = "/assets/nice_image.jpg",
+      caption = "Integrated orbit of a hypothetical three-body star-planet-moon system via s=2 Adams-Moulton method.
+      This is motivated by the first potential discovery of an exomoon made not too long ago."}
+\end{center}
+\end{column}
+
+\begin{column}{}
+**_WASP-12/b system_**
+\begin{center}
+  \figure{path="/assets/nice_image.jpg", width="100%", style="border-radius:5px;", caption="The same integration method applied to the Lotka–Volterra system of differential equations describing population growth."}
+\end{center}
+\end{column}
+\end{columns}
+\end{section}
+
 \begin{section}{name="Research"}
 ## [WASP-50b (Weaver et al. submitted)](https://icweaver.github.io/WASP-50b/)
 \begin{center}
