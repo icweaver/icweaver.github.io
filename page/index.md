@@ -7,16 +7,20 @@ Python package for numerical integration, powered by [automatic differentiation]
 **_Orbital trajectories_**
 \begin{center}
   \figure{
-      path = "/assets/nice_image.jpg",
-      caption = "Integrated orbit of a hypothetical three-body star-planet-moon system via s=2 Adams-Moulton method.
-      This is motivated by the first potential discovery of an exomoon made not too long ago."}
+    path = "/assets/nice_image.jpg",
+    caption = "Integrated orbit of a hypothetical three-body star-planet-moon system via s=2 Adams-Moulton method.
+    This is motivated by the first potential discovery of an exomoon made not too long ago."
+  }
 \end{center}
 \end{column}
 
 \begin{column}{}
 **_Population dynamics_**
 \begin{center}
-  \figure{path="/assets/nice_image.jpg", width="100%", style="border-radius:5px;", caption="The same integration method applied to the Lotka–Volterra system of differential equations describing population growth."}
+  \figure{
+    path = "/assets/nice_image.jpg",
+    caption = "The same integration method applied to the Lotka–Volterra system of differential equations describing population growth."
+  }
 \end{center}
 \end{column}
 \end{columns}
@@ -27,37 +31,44 @@ Python package for numerical integration, powered by [automatic differentiation]
 **_Artificial energy loss_**
 \begin{center}
   \figure{
-      path = "/assets/nice_image.jpg",
-      caption = "Integrated orbit of a hypothetical three-body star-planet-moon system via s=2 Adams-Moulton method.
-      This is motivated by the first potential discovery of an exomoon made not too long ago."}
+    path = "/assets/nice_image.jpg",
+    caption = "Integrated orbit of a hypothetical three-body star-planet-moon system via s=2 Adams-Moulton method.
+    This is motivated by the first potential discovery of an exomoon made not too long ago."
+  }
 \end{center}
 \end{column}
 
 \begin{column}{}
 **_WASP-12/b system_**
 \begin{center}
-  \figure{path="/assets/nice_image.jpg", width="100%", style="border-radius:5px;", caption="The same integration method applied to the Lotka–Volterra system of differential equations describing population growth."}
+  \figure{
+    path = "/assets/nice_image.jpg",
+    caption = "The same integration method applied to the Lotka–Volterra system of differential equations describing population growth."
+  }
 \end{center}
 \end{column}
 \end{columns}
-\end{section}
 
 ## [Accretion disk fluid simulations](https://github.com/icweaver/particle_trajectory)
 \begin{columns}
 \begin{column}{}
-**_Artificial energy loss_**
+**_WASP-12/b 2D_**
 \begin{center}
   \figure{
-      path = "/assets/nice_image.jpg",
-      caption = "Integrated orbit of a hypothetical three-body star-planet-moon system via s=2 Adams-Moulton method.
-      This is motivated by the first potential discovery of an exomoon made not too long ago."}
+    path = "/assets/nice_image.jpg",
+    caption = "Integrated orbit of a hypothetical three-body star-planet-moon system via s=2 Adams-Moulton method.
+    This is motivated by the first potential discovery of an exomoon made not too long ago."
+  }
 \end{center}
 \end{column}
 
 \begin{column}{}
 **_WASP-12/b system_**
 \begin{center}
-  \figure{path="/assets/nice_image.jpg", width="100%", style="border-radius:5px;", caption="The same integration method applied to the Lotka–Volterra system of differential equations describing population growth."}
+  \figure{
+    path = "/assets/nice_image.jpg",
+    caption = "The same integration method applied to the Lotka–Volterra system of differential equations describing population growth."
+  }
 \end{center}
 \end{column}
 \end{columns}
@@ -110,7 +121,8 @@ Python package for numerical integration, powered by [automatic differentiation]
     for the presence of clouds/hazes as well as Na, K, Hα, and H₂O planetary absorption and stellar spot contamination.
     <b>We do not detect a statistically significant presence of Na I or K I alkali lines, or Hα in the atmosphere of
     WASP-43b</b>. We find that the observed transmission spectrum can be best explained by a combination of
-    heterogeneities on the photosphere of the host star and a <b>clear planetary atmosphere</b> with water." }
+    heterogeneities on the photosphere of the host star and a <b>clear planetary atmosphere</b> with water."
+  }
 \end{center}
 \end{section}
 
