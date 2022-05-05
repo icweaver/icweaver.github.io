@@ -1,4 +1,17 @@
 \begin{section}{name="Projects"}
+## Exoplanet sky visualizer
+
+\begin{columns}
+\begin{column}{}
+\begin{center}
+  \figure{
+    path = "/assets/nice_image.jpg",
+    caption = "Pluto.jl + AstroImages.jl = ❤"
+  }
+\end{center}
+\end{column}
+\end{columns}
+
 ## [`spacejam`](https://spacejam.readthedocs.io/en/latest/index.html)
 Python package for numerical integration, powered by [automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation).
 
@@ -54,18 +67,22 @@ Python package for numerical integration, powered by [automatic differentiation]
 \end{column}
 \end{columns}
 
-## [Accretion disk fluid simulations](https://github.com/icweaver/particle_trajectory)
+## Accretion disk fluid simulations
+Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.edu/site/flashcode/).
+
 \begin{columns}
 \begin{column}{}
 **_WASP-12/b 2D_**
 \begin{center}
   \figure{
     path = "/assets/nice_image.jpg",
-    caption = "Integrated orbit of a hypothetical three-body star-planet-moon system via s=2 Adams-Moulton method.
+    caption = "An analog to the toy-model from the particle trajectory code above. I
+    replaced the massless test particle in that code with a fluid outflow boundary, following properties adopted from
+    Lai et al. (2010). I then added an artificial ramp up in density at around the 5 day mark to effectively
+    fast-forward the disk to a more evolved state."
   }
 \end{center}
 \end{column}
-
 \begin{column}{}
 **_WASP-12/b 3D_**
 \begin{center}
