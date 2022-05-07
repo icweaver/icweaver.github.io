@@ -45,10 +45,10 @@ Python package for numerical integration, powered by [automatic differentiation]
 \begin{center}
   \figure{
     path = "/assets/nice_image.jpg",
-    caption = "Particle stream trajectory in a binary Roche Potential with artificial energy loss every time step. This
-    was done to mimic the energy that is lost to shocks and other collisions in real fluid interactions. This was done
-    by having the test particle lose energy while maintaining its angular momentum. I also added a little kick in the z
-    component of the particle's initial velocity to make it a little more fun to watch."
+    caption = "Particle stream trajectory in a binary Roche Potential with artificial energy loss every time step to
+    mimic the energy that is lost to shocks and other collisions in real fluid interactions. This was done by having the
+    test particle lose energy while maintaining its angular momentum. I also added a little kick in the z component of
+    the particle's initial velocity to make it a little more fun to watch."
   }
 \end{center}
 \end{column}
@@ -58,9 +58,9 @@ Python package for numerical integration, powered by [automatic differentiation]
 \begin{center}
   \figure{
     path = "/assets/nice_image.jpg",
-    caption = "op-down plot of the same code applied to WASP-12/b (to scale). I waited until a full orbit to turn on the
-    artificial energy loss to mimic one full lap of the accretion stream before colliding with itself. The corners due
-    to the Coriolis force are clearly scene and the orbit settles down into its circularization radius (in green), as
+    caption = "Top-down view of the same code applied to WASP-12/b (to scale). I waited until a full orbit to turn on
+    the artificial energy loss to mimic one full lap of the accretion stream before colliding with itself. The corners
+    due to the Coriolis force are clearly seen and the orbit settles down into its circularization radius (in green), as
     predicted from angular momentum conservation."
   }
 \end{center}
