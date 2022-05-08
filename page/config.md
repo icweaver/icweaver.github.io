@@ -113,7 +113,7 @@ NOTE:
 @def link_color         = "white"
 @def link_hover_color   = "red"
 @def section_bg_color   = "#f6f8fa"
-@def footer_link_color  = "blue"
+@def footer_link_color  = "#0097a7"
 
 <!-- CODE LAYOUT
 NOTE:
