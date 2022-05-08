@@ -1,5 +1,4 @@
 \begin{section}{name="Projects"}
-\begin{ribbonred}
 ## Exoplanets
 whoooa 🪐
 
@@ -93,11 +92,9 @@ Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.e
   }
 \end{column}
 \end{columns}
-\end{ribbonred}
 \end{section}
 
 \begin{section}{name="Research"}
-\begin{ribbongreen}
 ## [WASP-50b (Weaver et al. submitted)](https://icweaver.github.io/WASP-50b/)
   \figure{
     path = "/assets/nice_image.jpg",
@@ -141,12 +138,9 @@ Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.e
     WASP-43b</b>. We find that the observed transmission spectrum can be best explained by a combination of
     heterogeneities on the photosphere of the host star and a <b>clear planetary atmosphere</b> with water."
   }
-\end{ribbongreen}
 \end{section}
 
 \begin{section}{name="CV/Resume"}
-\begin{ribbonblue}
 ## Stuff
 it me
-\end{ribbonblue}
 \end{section}
