@@ -6,15 +6,15 @@ section { padding: 75px 0; }
 /* NAVBAR */
 
 #navbar-toggler-cbox:checked ~ .collapse { display:block; }
-.navbar-nav .active { color: #fff; }
+.navbar-nav .active { color: #faf0e6; }
 
-.navbar-brand a { color: ghostwhite; }
+.navbar-brand a { color: #faf0e6; }
 .navbar-brand a:hover {
   color: rgba(255,255,255,.5);
   text-decoration: none;
 }
 
-a.nav-link.active { color: #fff !important; }
+a.nav-link.active { color: #faf0e6 !important; }
 
 /* FORMATTING */
 
@@ -67,4 +67,6 @@ pre code.hljs.plaintext {
 
 p {color: #faf0e6}
 
-.container {max-width: 100%}
+#projects {background-color: #ff7f00}
+#research {background-color: #416fd4}
+#cvresume {background-color: #0097a7}
