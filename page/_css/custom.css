@@ -53,7 +53,7 @@ pre code.hljs.plaintext {
 
 /* ADD ANY SPECIFIC TWEAKS YOU MIGHT WANT HERE */
 .figure-img {width: 100%; border-radius: 0.5rem}
-.figure-caption {text-align: justify}
+.figure-caption {text-align: justify; color: #faf0e6}
 
 .im-50 {text-align: center;}
 .im-50 img {
@@ -61,4 +61,10 @@ pre code.hljs.plaintext {
     width: 50%;
 }
 
-.ribbon {background-color: red}
+.ribbonred {background-color: #ff7f00}
+.ribbonblue {background-color: #416fd4}
+.ribbongreen {background-color: #0097a7}
+
+p {color: #faf0e6}
+
+.container {max-width: 100%}
