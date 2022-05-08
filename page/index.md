@@ -1,4 +1,4 @@
-\begin{section}{name="Projects"}
+\begin{section}{title="Projects"}
 ## Exoplanets
 whoooa 🪐
 
@@ -94,7 +94,7 @@ Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.e
 \end{columns}
 \end{section}
 
-\begin{section}{name="Research"}
+\begin{section}{title="Research"}
 ## [WASP-50b (Weaver et al. submitted)](https://icweaver.github.io/WASP-50b/)
   \figure{
     path = "/assets/nice_image.jpg",
@@ -142,7 +142,7 @@ Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.e
   }
 \end{section}
 
-\begin{section}{name="CV/Resume"}
+\begin{section}{title="CV/Resume"}
 ## Stuff
 CV:
 \html{<i class="fa fa-github" style="font-size:1.5rem"></i>} |
