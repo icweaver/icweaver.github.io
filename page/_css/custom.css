@@ -18,7 +18,7 @@ a.nav-link.active { color: #fff !important; }
 
 /* FORMATTING */
 
-section h2 { margin-bottom: 1em;}
+section h2 {margin-bottom: 1em;}
 
 .lead {
   font-size: 20px;
@@ -52,7 +52,7 @@ pre code.hljs.plaintext {
 }
 
 /* ADD ANY SPECIFIC TWEAKS YOU MIGHT WANT HERE */
-.figure-img {width: 100%; border-radius: 5px}
+.figure-img {width: 100%; border-radius: 0.5rem}
 .figure-caption {text-align: justify}
 
 .im-50 {text-align: center;}
@@ -60,3 +60,5 @@ pre code.hljs.plaintext {
     padding: 0;
     width: 50%;
 }
+
+.ribbon {background-color: red}

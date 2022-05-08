@@ -151,3 +151,5 @@ commands that are defined and used in PkgPage.jl
 \newenvironment{center}{\html{<div style="text-align:center;">}}{\html{</div>}}
 
 \newenvironment{columns}{\html{<div class="container"><div class="row">}}{\html{</div></div>}}
+
+\newenvironment{ribbon}{\html{<div class="ribbon">}}{\html{</div>}}
