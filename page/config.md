@@ -109,11 +109,11 @@ NOTE:
                        visually separate between sections.
   - footer_link_color: color of links in the footer
 -->
-@def header_color       = "#3f6388"
-@def link_color         = "#2669DD"
-@def link_hover_color   = "teal"
+@def header_color       = "red"
+@def link_color         = "#faf0e6"
+@def link_hover_color   = "#faf0e6"
 @def section_bg_color   = "#f6f8fa"
-@def footer_link_color  = "cornflowerblue"
+@def footer_link_color  = "red"
 
 <!-- CODE LAYOUT
 NOTE:

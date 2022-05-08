@@ -126,7 +126,9 @@ Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.e
     disentangle the exoplanet and <b>stellar activity signals</b>."
   }
 
-## [WASP-43b (Weaver et al. 2020)](https://ui.adsabs.harvard.edu/abs/2020AJ....159...13W/abstract)
+## WASP-43b (Weaver et al. 2020)
+
+(https://ui.adsabs.harvard.edu/abs/2020AJ....159...13W/abstract)
   \figure{
     path = "/assets/nice_image.jpg",
     caption = "We present a new <b>ground-based visual transmission spectrum</b> of the hot Jupiter WASP-43b, obtained as
