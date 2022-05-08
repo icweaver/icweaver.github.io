@@ -61,11 +61,7 @@ pre code.hljs.plaintext {
     width: 50%;
 }
 
-.ribbonred {background-color: #ff7f00}
-.ribbonblue {background-color: #416fd4}
-.ribbongreen {background-color: #0097a7}
-
-p {color: #faf0e6}
+p, em {color: #faf0e6}
 
 #projects {background-color: #ff7f00}
 #research {background-color: #416fd4}
