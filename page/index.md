@@ -169,7 +169,7 @@ Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.e
   }
 \end{section}
 
-\begin{section}{name="CV/Resume"}
+\begin{section}{name="CV"}
 CV:
 \html{<i class="fa fa-github" style="font-size:1.5rem"></i>} |
 Resume:
