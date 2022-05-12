@@ -176,7 +176,13 @@ Email:
 \html{<i class="fa fa-github" style="font-size:1.5rem"></i>} |
 ADS:
 \html{<i class="fa fa-github" style="font-size:1.5rem"></i>}
+\html{
+<header class="main-header" role="banner">
+  <img src="/assets/c_and_h_banner.jpeg" width="100%" alt="Banner Image"/>
+</header>
+}
 \end{section}
+
 
 \html{
     <meta name="viewport" content="width=device-width, initial-scale=1">
