@@ -110,8 +110,8 @@ NOTE:
   - footer_link_color: color of links in the footer
 -->
 @def header_color       = "red"
-@def link_color         = "white"
-@def link_hover_color   = "red"
+@def link_color         = "cyan"
+@def link_hover_color   = "white"
 @def section_bg_color   = "#f6f8fa"
 @def footer_link_color  = "#0097a7"
 

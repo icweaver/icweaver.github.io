@@ -1,5 +1,10 @@
+\begin{section}{title="About"}
+# Hi
+\end{section}
+
 \begin{section}{title="Projects"}
-## Exoplanets
+\html{<h1>Exoplanets</h1>}
+
 whoooa 🪐
 
 \begin{columns}
@@ -20,7 +25,7 @@ whoooa 🪐
 \end{column}
 \end{columns}
 
-## [`spacejam`](https://spacejam.readthedocs.io/en/latest/index.html)
+\html{<h1><code>spacejam</code> <a href="https://spacejam.readthedocs.io/en/latest/index.html" target="_blank"><i class="fa fa-github" style="font-size:1.5rem"></i></a></h1>}
 Python package for numerical integration, powered by [automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation).
 
 \begin{columns}
@@ -42,10 +47,11 @@ Python package for numerical integration, powered by [automatic differentiation]
 \end{column}
 \end{columns}
 
-## [Accretion stream toy model](https://github.com/icweaver/particle_trajectory)
+# Accretion stream toy model
+
 \begin{columns}
 \begin{column}{}
-**_Artificial energy loss_**
+**_Artificial energy loss_**\html{<a href="https://github.com/icweaver/particle_trajectory" target="_blank"><i class="fa fa-github" style="font-size:1.5rem"></i></a>}
   \figure{
     path = "/assets/nice_image.jpg",
     caption = "Particle stream trajectory in a binary Roche Potential with artificial energy loss every time step to
@@ -56,7 +62,7 @@ Python package for numerical integration, powered by [automatic differentiation]
 \end{column}
 
 \begin{column}{}
-**_WASP-12/b system_**
+**_WASP-12/b system_**\html{<a href="https://github.com/icweaver/particle_trajectory" target="_blank"><i class="fa fa-github" style="font-size:1.5rem"></i></a>}
   \figure{
     path = "/assets/nice_image.jpg",
     caption = "Top-down view of the same code applied to WASP-12/b (to scale). I waited until a full orbit to turn on
@@ -67,7 +73,7 @@ Python package for numerical integration, powered by [automatic differentiation]
 \end{column}
 \end{columns}
 
-## Accretion disk fluid simulations
+# Accretion disk fluid simulations
 Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.edu/site/flashcode/).
 
 \begin{columns}
@@ -95,7 +101,8 @@ Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.e
 \end{section}
 
 \begin{section}{title="Research"}
-## [WASP-50b (Weaver et al. submitted)](https://icweaver.github.io/WASP-50b/)
+# WASP-50b (Weaver et al. submitted)
+(https://icweaver.github.io/WASP-50b/)
   \figure{
     path = "/assets/nice_image.jpg",
     caption = "We present a new <b>ground-based visual transmission spectrum</b> of the hot Jupiter WASP-43b, obtained
@@ -109,7 +116,8 @@ Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.e
     water."
   }
 
-## [HAT-P-23b (Weaver et al. 2021)](https://icweaver.github.io/HAT-P-23b/README.html)
+# HAT-P-23b (Weaver et al. 2021)
+(https://icweaver.github.io/HAT-P-23b/README.html)
   \figure{
     path = "/assets/nice_image.jpg",
     caption = "We present a new <b>ground-based visible transmission spectrum</b> of the <b>high-gravity, hot
@@ -126,8 +134,7 @@ Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.e
     disentangle the exoplanet and <b>stellar activity signals</b>."
   }
 
-## WASP-43b (Weaver et al. 2020)
-
+# WASP-43b (Weaver et al. 2020)
 (https://ui.adsabs.harvard.edu/abs/2020AJ....159...13W/abstract)
   \figure{
     path = "/assets/nice_image.jpg",
@@ -143,7 +150,6 @@ Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.e
 \end{section}
 
 \begin{section}{title="CV/Resume"}
-## Stuff
 CV:
 \html{<i class="fa fa-github" style="font-size:1.5rem"></i>} |
 Resume:
