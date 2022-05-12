@@ -25,7 +25,13 @@ whoooa 🪐
 \end{column}
 \end{columns}
 
-\html{<h1><code>spacejam</code> <a href="https://spacejam.readthedocs.io/en/latest/index.html" target="_blank"><i class="fa fa-github" style="font-size:1.5rem"></i></a></h1>}
+\html{
+<h1>
+<code>spacejam</code>
+<a href="https://github.com/cs207-SpaceJam/cs207-FinalProject" target="_blank"><i class="fa fa-github" style="font-size:2.0rem"></i></a>
+<a href="https://spacejam.readthedocs.io/en/latest/index.html" target="_blank"><i class="fa fa-book" style="font-size:2.0rem"></i></a>
+</h1>}
+
 Python package for numerical integration, powered by [automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation).
 
 \begin{columns}
@@ -47,11 +53,18 @@ Python package for numerical integration, powered by [automatic differentiation]
 \end{column}
 \end{columns}
 
-# Accretion stream toy model
+\html{
+<h1>
+Accretion stream toy model
+<a href="https://github.com/icweaver/particle_trajectory" target="_blank"><i class="fa fa-github" style="font-size:2.0rem"></i></a>
+</h1>
+}
+
+Written in Fortran, visualized in Python
 
 \begin{columns}
 \begin{column}{}
-**_Artificial energy loss_**\html{<a href="https://github.com/icweaver/particle_trajectory" target="_blank"><i class="fa fa-github" style="font-size:1.5rem"></i></a>}
+**_Artificial energy loss_**
   \figure{
     path = "/assets/nice_image.jpg",
     caption = "Particle stream trajectory in a binary Roche Potential with artificial energy loss every time step to
@@ -62,7 +75,7 @@ Python package for numerical integration, powered by [automatic differentiation]
 \end{column}
 
 \begin{column}{}
-**_WASP-12/b system_**\html{<a href="https://github.com/icweaver/particle_trajectory" target="_blank"><i class="fa fa-github" style="font-size:1.5rem"></i></a>}
+**_WASP-12/b system_**
   \figure{
     path = "/assets/nice_image.jpg",
     caption = "Top-down view of the same code applied to WASP-12/b (to scale). I waited until a full orbit to turn on
@@ -73,7 +86,12 @@ Python package for numerical integration, powered by [automatic differentiation]
 \end{column}
 \end{columns}
 
-# Accretion disk fluid simulations
+\html{
+<h1>
+Accretion disk fluid simulations
+</h1>
+}
+
 Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.edu/site/flashcode/).
 
 \begin{columns}
