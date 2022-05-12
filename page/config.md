@@ -72,7 +72,7 @@ The latter allows you to plug in values that you would have defined here.
   - add_github_star:    whether to add a "Star this package" button in header
   - github_repo:        path to the GitHub repo for the GitHub button
 -->
-@def use_header         = true
+@def use_header         = false
 @def use_header_img     = true
 @def header_img_path    = "url(\"assets/diagonal-lines.svg\")"
 @def header_img_style   = """
