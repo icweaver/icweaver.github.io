@@ -60,7 +60,7 @@ Accretion stream toy model
 </h1>
 }
 
-Written in Fortran, visualized in Python
+Written in Fortran, visualized in Python.
 
 \begin{columns}
 \begin{column}{}
