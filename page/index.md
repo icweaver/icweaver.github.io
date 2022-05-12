@@ -2,6 +2,17 @@
 
 Hi
 
+\html{<i class="fa-brands fa-github" style="font-size:1.5rem"></i>} \html{<i class="fa-brands fa-linkedin" style="font-size:1.5rem"></i>}
+
+Resume:
+\html{<i class="fa fa-book-open" style="font-size:1.5rem"></i>} |
+CV:
+\html{<i class="fa fa-rectangle-list" style="font-size:1.5rem"></i>} |
+Email:
+\html{<i class="fa fa-envelope" style="font-size:1.5rem"></i>} |
+ADS:
+\html{<i class="fa fa-rocket" style="font-size:1.5rem"></i>}
+
 \end{section}
 
 \begin{section}{name="Projects"}
@@ -169,24 +180,14 @@ Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.e
   }
 \end{section}
 
-\begin{section}{name="CV"}
-CV:
-\html{<i class="fa fa-github" style="font-size:1.5rem"></i>} |
-Resume:
-\html{<i class="fa fa-github" style="font-size:1.5rem"></i>} |
-Email:
-\html{<i class="fa fa-github" style="font-size:1.5rem"></i>} |
-ADS:
-\html{<i class="fa fa-github" style="font-size:1.5rem"></i>}
 \html{
-<header class="main-header" role="banner">
+<div class="main-header">
   <img src="/assets/c_and_h_banner.jpeg" width="100%" alt="Banner Image"/>
-</header>
+</div>
 }
-\end{section}
 
 
 \html{
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/bd904155ad.js" crossorigin="anonymous"></script>
 }
