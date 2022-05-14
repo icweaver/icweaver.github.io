@@ -1,4 +1,4 @@
-\begin{section}{name="About"}
+\begin{section}{title="About"}
 
 Hi
 
@@ -15,7 +15,7 @@ ADS:
 
 \end{section}
 
-\begin{section}{name="Projects"}
+\begin{section}{title="Projects"}
 # Exoplanets
 
 whoooa 🪐
@@ -124,7 +124,7 @@ Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.e
 \end{columns}
 \end{section}
 
-\begin{section}{name="Research"}
+\begin{section}{title="Research"}
 # WASP-50b (Weaver et al. submitted)
 \html{
 <a href="https://github.com/icweaver/WASP-50b" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>

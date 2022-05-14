@@ -62,6 +62,7 @@ pre code.hljs.plaintext {
 }
 
 p, em, code, h1 {color: #faf0e6}
+h2 {color: lightgrey}
 
 #about    {background-color: #5e42a6}
 #projects {background-color: #b74e91}
