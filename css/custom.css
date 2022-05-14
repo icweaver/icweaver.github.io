@@ -82,6 +82,9 @@ a.nav-link.active {
     color: hotpink !important;
 }
 
+/* override footer text color */
+.text-white {color: #faf0e6 !important}
+
 /*
 .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
     border-right: 2px solid #faf0e6;
