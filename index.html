@@ -98,7 +98,7 @@ pre code.hljs.plaintext {
 <h1 id="ian_weaver_phd"><a href="#ian_weaver_phd" class="header-anchor">Ian Weaver, PhD</a></h1>
  <div class="container"><div class="row"> <div class="col "></p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia mollis ligula, in malesuada ex vestibulum ut. Phasellus elementum, nibh elementum pellentesque aliquet, nibh orci mollis diam, tristique venenatis purus metus at metus. Vivamus ac nisl volutpat, placerat orci id, porta felis. Suspendisse mattis, orci id egestas tempor, enim orci interdum mauris, non consequat dui felis vel lectus. Pellentesque non sollicitudin elit. Vivamus porttitor, tellus non egestas consectetur, quam elit efficitur nulla, vel tincidunt mi sem eu erat. Suspendisse a pulvinar nibh.</p>
-<p>Resume:  <a href="" target="_blank"><i class="fa fa-book-open"></i></a> | CV:  <a href="" target="_blank"><i class="fa fa-rectangle-list"></i></a> | Email:  <a href="" target="_blank"><i class="fa fa-envelope"></i></a> | ADS:  <a href="" target="_blank"><i class="fa fa-rocket"></i></a> </div> <div class="col "></p>
+<p>Resume:  <a href="" target="_blank"><i class="fa fa-book-open"></i></a> | CV:  <a href="/assets/cv.pdf" target="_blank"><i class="fa fa-rectangle-list"></i></a> | Email:  <a href="mailto:iweaver@mailbox.org" target="_blank"><i class="fa fa-envelope"></i></a> | NASA ADS:  <a href="https://ui.adsabs.harvard.edu/public-libraries/6nMcPukqSpiQq_0Ak7g8sA" target="_blank"><i class="fa fa-rocket"></i></a> </div> <div class="col "></p>
  <div style="text-align:center;"> <figure class="figure">
   <img src="/assets/nice_image.jpg" alt="" class="figure-img img-fluid " width="" >
   
@@ -152,55 +152,19 @@ Pluto.jl + AstroImages.jl = ❤
 <h1 id="accretion_stream_toy_model"><a href="#accretion_stream_toy_model" class="header-anchor">Accretion stream toy model</a></h1>
  <a href="https://github.com/icweaver/particle_trajectory" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>
 <p>Written in Fortran, visualized in Python.</p>
- <div class="container"><div class="row"> <div class="col "> <strong><em>Artificial energy loss</em></strong>  <video controls width="100%">
-  <source src="/assets/sho_intertial_3d.gif" type="video/gif">
-  Sorry, your browser doesn't support embedded videos.
-</video></p>
+ <div class="container"><div class="row"> <div class="col "> <strong><em>Artificial energy loss</em></strong>  <img src="/assets/sho_inertial_3D.gif" width="100%" alt="Banner Image"/></p>
 <p>Particle stream trajectory in a binary Roche Potential with artificial energy loss every time step to mimic the energy that is lost to shocks and other collisions in real fluid interactions. This was done by having the test particle lose energy while maintaining its angular momentum. I also added a little kick in the z component of the particle&#39;s initial velocity to make it a little more fun to watch. </div></p>
-<p><div class="col "> <strong><em>WASP-12/b system</em></strong> <figure class="figure">
-  <img src="/assets/nice_image.jpg" alt="Top-down view of the same code applied to WASP-12/b (to scale). I waited until a full orbit to turn on
-    the artificial energy loss to mimic one full lap of the accretion stream before colliding with itself. The corners
-    due to the Coriolis force are clearly seen and the orbit settles down into its circularization radius (in green), as
-    predicted from angular momentum conservation." class="figure-img img-fluid " width="" >
-  <figcaption class="figure-caption ">
-Top-down view of the same code applied to WASP-12/b (to scale). I waited until a full orbit to turn on
-    the artificial energy loss to mimic one full lap of the accretion stream before colliding with itself. The corners
-    due to the Coriolis force are clearly seen and the orbit settles down into its circularization radius (in green), as
-    predicted from angular momentum conservation.
-</figcaption>
-
-</figure>
- </div>  </div></div>
+<p><div class="col "> <strong><em>WASP-12/b system</em></strong>  <img src="/assets/xy.png" width="100%" alt="Banner Image"/></p>
+<p>Top-down view of the same code applied to WASP-12/b &#40;to scale&#41;. I waited until a full orbit to turn on the artificial energy loss to mimic one full lap of the accretion stream before colliding with itself. The corners due to the Coriolis force are clearly seen and the orbit settles down into its circularization radius &#40;in green&#41;, as predicted from angular momentum conservation. </div>  </div></div>
  <br>
 <h1 id="accretion_disk_fluid_simulations"><a href="#accretion_disk_fluid_simulations" class="header-anchor">Accretion disk fluid simulations</a></h1>
 <p>Below are hydrodynamical simulations made with <a href="https://flash.rochester.edu/site/flashcode/">FLASH</a>.</p>
-<p> <div class="container"><div class="row"> <div class="col "> <strong><em>WASP-12/b 2D</em></strong> <figure class="figure">
-  <img src="/assets/nice_image.jpg" alt="An analog to the toy-model from the particle trajectory code above. I
-    replaced the massless test particle in that code with a fluid outflow boundary, following properties adopted from
-    Lai et al. (2010). I then added an artificial ramp up in density at around the 5 day mark to effectively
-    fast-forward the disk to a more evolved state." class="figure-img img-fluid " width="" >
-  <figcaption class="figure-caption ">
-An analog to the toy-model from the particle trajectory code above. I
-    replaced the massless test particle in that code with a fluid outflow boundary, following properties adopted from
-    Lai et al. (2010). I then added an artificial ramp up in density at around the 5 day mark to effectively
-    fast-forward the disk to a more evolved state.
-</figcaption>
-
-</figure>
- </div> <div class="col "> <strong><em>WASP-12/b 3D</em></strong> <figure class="figure">
-  <img src="/assets/nice_image.jpg" alt="I adapted the hydro simulation to 3D to create the image above. This is an isodensity contour plot taken
-    partway through the simulation. The location of L1 can be seen as the orange-yellow sphere towards the bottom left.
-    These simulations were used to create virtual light curves to compare with observations from HST's Cosmic Origins
-    Spectrograph." class="figure-img img-fluid " width="" >
-  <figcaption class="figure-caption ">
-I adapted the hydro simulation to 3D to create the image above. This is an isodensity contour plot taken
-    partway through the simulation. The location of L1 can be seen as the orange-yellow sphere towards the bottom left.
-    These simulations were used to create virtual light curves to compare with observations from HST's Cosmic Origins
-    Spectrograph.
-</figcaption>
-
-</figure>
- </div>  </div></div>       </div>
+<p> <div class="container"><div class="row"> <div class="col "> <strong><em>WASP-12/b 2D</em></strong>  <video controls width="100%">
+  <source src="/assets/dens_2d.mp4" type="video/mp4">
+  Sorry, your browser doesn't support embedded videos.
+</video></p>
+<p>An analog to the toy-model from the particle trajectory code above. I replaced the massless test particle in that code with a fluid outflow boundary, following properties adopted from Lai et al. &#40;2010&#41;. I then added an artificial ramp up in density at around the 5 day mark to effectively fast-forward the disk to a more evolved state. </div> <div class="col "> <strong><em>WASP-12/b 3D</em></strong>  <img src="/assets/3d_disk.png" width="100%" alt="Banner Image"/></p>
+<p>I adapted the hydro simulation to 3D to create the image above. This is an isodensity contour plot taken partway through the simulation. The location of L1 can be seen as the orange-yellow sphere towards the bottom left. These simulations were used to create virtual light curves to compare with observations from HST&#39;s Cosmic Origins Spectrograph. </div>  </div></div>       </div>
     </div>
   </div>
 </section>
@@ -239,7 +203,7 @@ We present a new <b>ground-based visual transmission spectrum</b> of the hot Jup
 <p> <a href="https://github.com/icweaver/HAT-P-23b" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>
 <a href="https://icweaver.github.io/HAT-P-23b/" target="_blank"><i class="fa fa-book" style="font-size:1.5rem"></i></a>
 <a href="https://ui.adsabs.harvard.edu/abs/2021AJ....161..278W/abstract" target="_blank"><i class="fa fa-newspaper" style="font-size:1.5rem"></i></a> <figure class="figure">
-  <img src="/assets/nice_image.jpg" alt="We present a new <b>ground-based visible transmission spectrum</b> of the <b>high-gravity, hot
+  <img src="/assets/tspec_hatp23b.svg" alt="We present a new <b>ground-based visible transmission spectrum</b> of the <b>high-gravity, hot
     Jupiter</b> HAT-P-23b, obtained as part of the <b>ACCESS</b> project. We derive the spectrum from five transits
     observed between 2016 and 2018, with combined wavelength coverage between 5200 Å - 9269 Å in 200 Å bins, and with a
     median precision of 247 ppm per bin. HAT-P-23b's relatively high surface gravity (g ~ 30 m/s²), combined with
@@ -271,7 +235,7 @@ We present a new <b>ground-based visible transmission spectrum</b> of the <b>hig
 <h1 id="wasp-43b_weaver_et_al_2020"><a href="#wasp-43b_weaver_et_al_2020" class="header-anchor">WASP-43b &#40;Weaver et al. 2020&#41;</a></h1>
 <p> <a href="https://github.com/icweaver/ACCESS_notebook" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>
 <a href="https://ui.adsabs.harvard.edu/abs/2020AJ....159...13W/abstract" target="_blank"><i class="fa fa-newspaper" style="font-size:1.5rem"></i></a> <figure class="figure">
-  <img src="/assets/nice_image.jpg" alt="We present a new <b>ground-based visual transmission spectrum</b> of the hot Jupiter WASP-43b, obtained as
+  <img src="/assets/tspec_wasp43b.jpg" alt="We present a new <b>ground-based visual transmission spectrum</b> of the hot Jupiter WASP-43b, obtained as
     part of <b>ACCESS</b>. We collected four transits observed between 2015 and 2018, with a combined wavelength coverage
     between 5300 and 9000 Å and an average photometric precision of 708 ppm in 230 Å bins. We perform an <b>atmospheric
     retrieval</b> of our transmission spectrum combined with literature Hubble Space Telescope/WFC3 observations to search
