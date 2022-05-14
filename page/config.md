@@ -111,7 +111,7 @@ NOTE:
 -->
 @def header_color       = "red"
 @def link_color         = "#fcc133"
-@def link_hover_color   = "cyan"
+@def link_hover_color   = "hotpink"
 @def section_bg_color   = "#f6f8fa"
 @def footer_link_color  = "#fcc133"
 

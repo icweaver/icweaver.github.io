@@ -12,17 +12,20 @@ egestas consectetur, quam elit efficitur nulla, vel tincidunt mi sem eu erat. Su
 
 
 Resume:
-\html{<i class="fa fa-book-open" style="font-size:1.5rem"></i>} |
+\html{<a href="" target="_blank"><i class="fa fa-book-open"></i></a>} |
 CV:
-\html{<i class="fa fa-rectangle-list" style="font-size:1.5rem"></i>} |
+\html{<a href="" target="_blank"><i class="fa fa-rectangle-list"></i></a>} |
 Email:
-\html{<i class="fa fa-envelope" style="font-size:1.5rem"></i>} |
+\html{<a href="" target="_blank"><i class="fa fa-envelope"></i></a>} |
 ADS:
-\html{<i class="fa fa-rocket" style="font-size:1.5rem"></i>}
+\html{<a href="" target="_blank"><i class="fa fa-rocket"></i></a>}
 \end{column}
 \begin{column}{}
 
+\begin{center}
 \figure{path = "/assets/nice_image.jpg"}
+
+\end{center}
 
 \end{column}
 \end{columns}
