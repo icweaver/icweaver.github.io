@@ -16,7 +16,7 @@ different \link{Gaussian Process (GP)}{https://en.wikipedia.org/wiki/Gaussian_pr
 Analysis (PCA)}{https://en.wikipedia.org/wiki/Principal_component_analysis} techniques, to the applications of different
 statistical Bayesian frameworks such as \link{Markov chain Monte Carlo
 (MCMC)}{https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo} and \link{nested
-samplers}{https://en.wikipedia.org/wiki/Nested_sampling_algorithm} to study the atmospheres of these other worlds.
+sampling}{https://en.wikipedia.org/wiki/Nested_sampling_algorithm} to study the atmospheres of these other worlds.
 
 In my free time, I love rowing, participating in \link{STEM outreach}{https://www.theopenlabs.org/harvard}, and
 \link{learning more about Julia}{https://exercism.org/profiles/icweaver/testimonials} with other folks!
