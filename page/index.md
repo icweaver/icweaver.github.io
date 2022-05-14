@@ -14,11 +14,11 @@ egestas consectetur, quam elit efficitur nulla, vel tincidunt mi sem eu erat. Su
 Resume:
 \html{<a href="" target="_blank"><i class="fa fa-book-open"></i></a>} |
 CV:
-\html{<a href="" target="_blank"><i class="fa fa-rectangle-list"></i></a>} |
+\html{<a href="/assets/cv.pdf" target="_blank"><i class="fa fa-rectangle-list"></i></a>} |
 Email:
-\html{<a href="" target="_blank"><i class="fa fa-envelope"></i></a>} |
-ADS:
-\html{<a href="" target="_blank"><i class="fa fa-rocket"></i></a>}
+\html{<a href="mailto:iweaver@mailbox.org" target="_blank"><i class="fa fa-envelope"></i></a>} |
+NASA ADS:
+\html{<a href="https://ui.adsabs.harvard.edu/public-libraries/6nMcPukqSpiQq_0Ak7g8sA" target="_blank"><i class="fa fa-rocket"></i></a>}
 \end{column}
 \begin{column}{}
 
@@ -104,12 +104,7 @@ Written in Fortran, visualized in Python.
 \begin{columns}
 \begin{column}{}
 **_Artificial energy loss_**
-\html{
-<video controls width="100%">
-  <source src="/assets/sho_intertial_3d.gif" type="video/gif">
-  Sorry, your browser doesn't support embedded videos.
-</video>
-}
+\html{<img src="/assets/sho_inertial_3D.gif" width="100%" alt="Banner Image"/>}
 
 Particle stream trajectory in a binary Roche Potential with artificial energy loss every time step to mimic the energy
 that is lost to shocks and other collisions in real fluid interactions. This was done by having the test particle lose
@@ -119,13 +114,12 @@ velocity to make it a little more fun to watch.
 
 \begin{column}{}
 **_WASP-12/b system_**
-  \figure{
-    path = "/assets/nice_image.jpg",
-    caption = "Top-down view of the same code applied to WASP-12/b (to scale). I waited until a full orbit to turn on
-    the artificial energy loss to mimic one full lap of the accretion stream before colliding with itself. The corners
-    due to the Coriolis force are clearly seen and the orbit settles down into its circularization radius (in green), as
-    predicted from angular momentum conservation."
-  }
+\html{<img src="/assets/xy.png" width="100%" alt="Banner Image"/>}
+
+Top-down view of the same code applied to WASP-12/b (to scale). I waited until a full orbit to turn on the artificial
+energy loss to mimic one full lap of the accretion stream before colliding with itself. The corners due to the Coriolis
+force are clearly seen and the orbit settles down into its circularization radius (in green), as predicted from angular
+momentum conservation.
 \end{column}
 \end{columns}
 
@@ -138,23 +132,24 @@ Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.e
 \begin{columns}
 \begin{column}{}
 **_WASP-12/b 2D_**
-  \figure{
-    path = "/assets/nice_image.jpg",
-    caption = "An analog to the toy-model from the particle trajectory code above. I
-    replaced the massless test particle in that code with a fluid outflow boundary, following properties adopted from
-    Lai et al. (2010). I then added an artificial ramp up in density at around the 5 day mark to effectively
-    fast-forward the disk to a more evolved state."
-  }
+\html{
+<video controls width="100%">
+  <source src="/assets/dens_2d.mp4" type="video/mp4">
+  Sorry, your browser doesn't support embedded videos.
+</video>
+}
+
+An analog to the toy-model from the particle trajectory code above. I replaced the massless test particle in that code
+with a fluid outflow boundary, following properties adopted from Lai et al. (2010). I then added an artificial ramp up
+in density at around the 5 day mark to effectively fast-forward the disk to a more evolved state.
 \end{column}
 \begin{column}{}
 **_WASP-12/b 3D_**
-  \figure{
-    path = "/assets/nice_image.jpg",
-    caption = "I adapted the hydro simulation to 3D to create the image above. This is an isodensity contour plot taken
-    partway through the simulation. The location of L1 can be seen as the orange-yellow sphere towards the bottom left.
-    These simulations were used to create virtual light curves to compare with observations from HST's Cosmic Origins
-    Spectrograph."
-  }
+\html{<img src="/assets/3d_disk.png" width="100%" alt="Banner Image"/>}
+
+I adapted the hydro simulation to 3D to create the image above. This is an isodensity contour plot taken partway through
+the simulation. The location of L1 can be seen as the orange-yellow sphere towards the bottom left. These simulations
+were used to create virtual light curves to compare with observations from HST's Cosmic Origins Spectrograph.
 \end{column}
 \end{columns}
 \end{section}
@@ -185,7 +180,7 @@ Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.e
 <a href="https://ui.adsabs.harvard.edu/abs/2021AJ....161..278W/abstract" target="_blank"><i class="fa fa-newspaper" style="font-size:1.5rem"></i></a>
 }
   \figure{
-    path = "/assets/nice_image.jpg",
+    path = "/assets/tspec_hatp23b.svg",
     caption = "We present a new <b>ground-based visible transmission spectrum</b> of the <b>high-gravity, hot
     Jupiter</b> HAT-P-23b, obtained as part of the <b>ACCESS</b> project. We derive the spectrum from five transits
     observed between 2016 and 2018, with combined wavelength coverage between 5200 Å - 9269 Å in 200 Å bins, and with a
@@ -206,7 +201,7 @@ Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.e
 <a href="https://ui.adsabs.harvard.edu/abs/2020AJ....159...13W/abstract" target="_blank"><i class="fa fa-newspaper" style="font-size:1.5rem"></i></a>
 }
   \figure{
-    path = "/assets/nice_image.jpg",
+    path = "/assets/tspec_wasp43b.jpg",
     caption = "We present a new <b>ground-based visual transmission spectrum</b> of the hot Jupiter WASP-43b, obtained as
     part of <b>ACCESS</b>. We collected four transits observed between 2015 and 2018, with a combined wavelength coverage
     between 5300 and 9000 Å and an average photometric precision of 708 ppm in 230 Å bins. We perform an <b>atmospheric
