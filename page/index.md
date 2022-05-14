@@ -127,7 +127,7 @@ momentum conservation.
 
 # Accretion disk fluid simulations
 
-Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.edu/site/flashcode/).
+Hydrodynamical simulations of planetary cannibalism made with [FLASH](https://flash.rochester.edu/site/flashcode/).
 
 \begin{columns}
 \begin{column}{}
@@ -161,7 +161,7 @@ were used to create virtual light curves to compare with observations from HST's
 <a href="https://icweaver.github.io/WASP-50b/" target="_blank"><i class="fa fa-book" style="font-size:1.5rem"></i></a>
 }
   \figure{
-    path = "/assets/nice_image.jpg",
+    path = "/assets/tspec_wasp50b.svg",
     caption = "We present a new <b>ground-based visual transmission spectrum</b> of the hot Jupiter WASP-43b, obtained
     as part of <b>ACCESS</b>. We collected four transits observed between 2015 and 2018, with a combined wavelength
     coverage between 5300 and 9000 Å and an average photometric precision of 708 ppm in 230 Å bins. We perform an
