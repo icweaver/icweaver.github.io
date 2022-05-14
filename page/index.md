@@ -5,20 +5,21 @@
 \html{<a href="mailto:iweaver@mailbox.org" target="_blank"><i class="fa fa-envelope" style="font-size:1.5rem"></i></a>}
 
 
-\html{<img align="right" src="/assets/profile.jpg">}
+\html{<img align="right" src="/assets/profile.jpg" id="hp">}
 
-Hi all, I'm Ian, a recent PhD graduate from the \link{Center for Astrophysics | Harvard &
+Hi, I'm Ian, a recent PhD graduate from the \link{Center for Astrophysics | Harvard &
 Smithsonian}{https://pweb.cfa.harvard.edu/}. I focused on studying large exoplanets with \link{large
 telescopes}{https://obs.carnegiescience.edu/Magellan}, and writing software to analyze them. I worked on all stages of
 the process, from the extraction and reduction of the raw \link{time series spectral
 data}{http://astro.dur.ac.uk/~knpv27/pg_dr_course/pg_dr_spectroscopy.html}, to the detrending of potential signals via
-different \link{Gaussian Process (GP)}{https://en.wikipedia.org/wiki/Gaussian_process} and \link{Principal Component Analysis
-(PCA)}{https://en.wikipedia.org/wiki/Principal_component_analysis} techniques, to the application of different
-statistical Bayesian frameworks such as \link{Markov chain Monte
-Carlo (MCMC)}{https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo} and \link{nested
+different \link{Gaussian Process (GP)}{https://en.wikipedia.org/wiki/Gaussian_process} and \link{Principal Component
+Analysis (PCA)}{https://en.wikipedia.org/wiki/Principal_component_analysis} techniques, to the applications of different
+statistical Bayesian frameworks such as \link{Markov chain Monte Carlo
+(MCMC)}{https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo} and \link{nested
 samplers}{https://en.wikipedia.org/wiki/Nested_sampling_algorithm} to study the atmospheres of these other worlds.
 
-In my free time, I love rowing, hiking, and \link{learning about Julia}{https://exercism.org/profiles/icweaver/testimonials} with other folks!
+In my free time, I love rowing, participating in \link{STEM outreach}{https://www.theopenlabs.org/harvard}, and
+\link{learning more about Julia}{https://exercism.org/profiles/icweaver/testimonials} with other folks!
 
 Resume:
 \link{<i class="fa fa-book-open"></i>}{""} |
@@ -66,10 +67,12 @@ Python package for numerical integration, powered by [automatic differentiation]
 \begin{column}{}
 **_Orbital trajectories_**
 \html{
+<div id="outer">
 <video controls width="100%">
   <source src="/assets/exo-moon.mp4" type="video/mp4" caption="yee">
   Sorry, your browser doesn't support embedded videos.
 </video>
+</div>
 }
 
 Integrated orbit of a hypothetical three-body star-planet-moon system via s=2 Adams-Moulton method. This is motivated by
@@ -79,10 +82,12 @@ the first potential discovery of an exomoon made not too long ago.
 \begin{column}{}
 **_Population dynamics_**
 \html{
+<div id="outer">
 <video controls width="100%">
   <source src="/assets/ecology.mp4" type="video/mp4">
   Sorry, your browser doesn't support embedded videos.
 </video>
+</div>
 }
 
 The same integration method applied to the Lotka–Volterra system of differential equations describing population growth.
@@ -101,7 +106,11 @@ Written in Fortran, visualized in Python.
 \begin{columns}
 \begin{column}{}
 **_Artificial energy loss_**
-\html{<img src="/assets/sho_inertial_3D.gif" width="100%" alt="Banner Image"/>}
+\html{
+<div id="outer">
+<img src="/assets/sho_inertial_3D.gif" width="100%" alt="Banner Image"/>
+</div>
+}
 
 Particle stream trajectory in a binary Roche Potential with artificial energy loss every time step to mimic the energy
 that is lost to shocks and other collisions in real fluid interactions. This was done by having the test particle lose
@@ -111,7 +120,11 @@ velocity to make it a little more fun to watch.
 
 \begin{column}{}
 **_WASP-12/b system_**
-\html{<img src="/assets/xy.png" width="100%" alt="Banner Image"/>}
+\html{
+<div id="outer">
+<img src="/assets/xy.png" width="100%" alt="Banner Image"/>
+</div>
+}
 
 Top-down view of the same code applied to WASP-12/b (to scale). I waited until a full orbit to turn on the artificial
 energy loss to mimic one full lap of the accretion stream before colliding with itself. The corners due to the Coriolis
@@ -130,10 +143,12 @@ Hydrodynamical simulations of planetary cannibalism made with [FLASH](https://fl
 \begin{column}{}
 **_WASP-12/b 2D_**
 \html{
+<div id="outer">
 <video controls width="100%">
   <source src="/assets/dens_2d.mp4" type="video/mp4">
   Sorry, your browser doesn't support embedded videos.
 </video>
+</div>
 }
 
 An analog to the toy-model from the particle trajectory code above. I replaced the massless test particle in that code
@@ -142,7 +157,11 @@ in density at around the 5 day mark to effectively fast-forward the disk to a mo
 \end{column}
 \begin{column}{}
 **_WASP-12/b 3D_**
-\html{<img src="/assets/3d_disk.png" width="100%" alt="Banner Image"/>}
+\html{
+<div id="outer">
+<img src="/assets/3d_disk.png" width="100%" alt="Banner Image"/>
+</div>
+}
 
 I adapted the hydro simulation to 3D to create the image above. This is an isodensity contour plot taken partway through
 the simulation. The location of L1 can be seen as the orange-yellow sphere towards the bottom left. These simulations

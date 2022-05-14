@@ -85,6 +85,14 @@ a.nav-link.active {
 /* override footer text color */
 .text-white {color: #faf0e6 !important}
 
+#hp  {
+  float: right;
+  margin: 0 0 0 1.5rem;
+  border-radius: 0.5rem;
+}
+
+#outer {border-radius: 0.5rem; overflow: hidden}
+
 /*
 .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
     border-right: 2px solid #faf0e6;
