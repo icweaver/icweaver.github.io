@@ -38,6 +38,8 @@ whoooa 🪐
 \end{column}
 \end{columns}
 
+\html{<br>}
+
 # spacejam
 \html{
 <a href="https://github.com/cs207-SpaceJam/cs207-FinalProject" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>
@@ -64,6 +66,8 @@ Python package for numerical integration, powered by [automatic differentiation]
   }
 \end{column}
 \end{columns}
+
+\html{<br>}
 
 # Accretion stream toy model
 \html{
@@ -95,6 +99,8 @@ Written in Fortran, visualized in Python.
   }
 \end{column}
 \end{columns}
+
+\html{<br>}
 
 # Accretion disk fluid simulations
 
