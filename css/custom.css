@@ -74,6 +74,8 @@ p, em, code, h1 {color: #faf0e6}
 
 .bg-dark {background-color: #274480 !important}
 
+.col {background-color: #00000042}
+
 /*
 .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
     border-right: 2px solid #faf0e6;
