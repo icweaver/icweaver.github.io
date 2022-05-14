@@ -72,6 +72,8 @@ p, em, code, h1 {color: #faf0e6}
   text-align: center;
 }
 
+.bg-dark {background-color: #493382 !important}
+
 /*
 .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
     border-right: 2px solid #faf0e6;

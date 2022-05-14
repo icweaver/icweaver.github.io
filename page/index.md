@@ -16,7 +16,7 @@ ADS:
 \end{section}
 
 \begin{section}{name="Projects"}
-\html{<h1>Exoplanets</h1>}
+# Exoplanets
 
 whoooa 🪐
 
@@ -38,12 +38,11 @@ whoooa 🪐
 \end{column}
 \end{columns}
 
+# spacejam
 \html{
-<h1>
-<code>spacejam</code>
-<a href="https://github.com/cs207-SpaceJam/cs207-FinalProject" target="_blank"><i class="fa fa-github" style="font-size:2.0rem"></i></a>
-<a href="https://spacejam.readthedocs.io/en/latest/index.html" target="_blank"><i class="fa fa-book" style="font-size:2.0rem"></i></a>
-</h1>}
+<a href="https://github.com/cs207-SpaceJam/cs207-FinalProject" target="_blank"><i class="fa fa-github" style="font-size:1.5rem"></i></a>
+<a href="https://spacejam.readthedocs.io/en/latest/index.html" target="_blank"><i class="fa fa-book" style="font-size:1.5rem"></i></a>
+}
 
 Python package for numerical integration, powered by [automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation).
 
@@ -66,11 +65,9 @@ Python package for numerical integration, powered by [automatic differentiation]
 \end{column}
 \end{columns}
 
+# Accretion stream toy model
 \html{
-<h1>
-Accretion stream toy model
-<a href="https://github.com/icweaver/particle_trajectory" target="_blank"><i class="fa fa-github" style="font-size:2.0rem"></i></a>
-</h1>
+<a href="https://github.com/icweaver/particle_trajectory" target="_blank"><i class="fa fa-github" style="font-size:1.5rem"></i></a>
 }
 
 Written in Fortran, visualized in Python.
@@ -99,11 +96,7 @@ Written in Fortran, visualized in Python.
 \end{column}
 \end{columns}
 
-\html{
-<h1>
-Accretion disk fluid simulations
-</h1>
-}
+# Accretion disk fluid simulations
 
 Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.edu/site/flashcode/).
 
