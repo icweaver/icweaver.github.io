@@ -68,19 +68,27 @@ Python package for numerical integration, powered by [automatic differentiation]
 \begin{columns}
 \begin{column}{}
 **_Orbital trajectories_**
-  \figure{
-    path = "/assets/nice_image.jpg",
-    caption = "Integrated orbit of a hypothetical three-body star-planet-moon system via s=2 Adams-Moulton method.
-    This is motivated by the first potential discovery of an exomoon made not too long ago."
-  }
+\html{
+<video controls width="100%">
+  <source src="/assets/exo-moon.mp4" type="video/mp4" caption="yee">
+  Sorry, your browser doesn't support embedded videos.
+</video>
+}
+
+Integrated orbit of a hypothetical three-body star-planet-moon system via s=2 Adams-Moulton method. This is motivated by
+the first potential discovery of an exomoon made not too long ago.
 \end{column}
 
 \begin{column}{}
 **_Population dynamics_**
-  \figure{
-    path = "/assets/nice_image.jpg",
-    caption = "The same integration method applied to the Lotka–Volterra system of differential equations describing population growth."
-  }
+\html{
+<video controls width="100%">
+  <source src="/assets/ecology.mp4" type="video/mp4">
+  Sorry, your browser doesn't support embedded videos.
+</video>
+}
+
+The same integration method applied to the Lotka–Volterra system of differential equations describing population growth.
 \end{column}
 \end{columns}
 
@@ -96,13 +104,17 @@ Written in Fortran, visualized in Python.
 \begin{columns}
 \begin{column}{}
 **_Artificial energy loss_**
-  \figure{
-    path = "/assets/nice_image.jpg",
-    caption = "Particle stream trajectory in a binary Roche Potential with artificial energy loss every time step to
-    mimic the energy that is lost to shocks and other collisions in real fluid interactions. This was done by having the
-    test particle lose energy while maintaining its angular momentum. I also added a little kick in the z component of
-    the particle's initial velocity to make it a little more fun to watch."
-  }
+\html{
+<video controls width="100%">
+  <source src="/assets/sho_intertial_3d.gif" type="video/gif">
+  Sorry, your browser doesn't support embedded videos.
+</video>
+}
+
+Particle stream trajectory in a binary Roche Potential with artificial energy loss every time step to mimic the energy
+that is lost to shocks and other collisions in real fluid interactions. This was done by having the test particle lose
+energy while maintaining its angular momentum. I also added a little kick in the z component of the particle's initial
+velocity to make it a little more fun to watch.
 \end{column}
 
 \begin{column}{}
