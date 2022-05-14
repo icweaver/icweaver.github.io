@@ -1,8 +1,15 @@
 \begin{section}{title="About"}
+# Ian Weaver, PhD
 
-Hi
+\begin{columns}
+\begin{column}{}
 
-\html{<i class="fa-brands fa-github" style="font-size:1.5rem"></i>} \html{<i class="fa-brands fa-linkedin" style="font-size:1.5rem"></i>}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia mollis ligula, in malesuada ex vestibulum ut.
+Phasellus elementum, nibh elementum pellentesque aliquet, nibh orci mollis diam, tristique venenatis purus metus at
+metus. Vivamus ac nisl volutpat, placerat orci id, porta felis. Suspendisse mattis, orci id egestas tempor, enim orci
+interdum mauris, non consequat dui felis vel lectus. Pellentesque non sollicitudin elit. Vivamus porttitor, tellus non
+egestas consectetur, quam elit efficitur nulla, vel tincidunt mi sem eu erat. Suspendisse a pulvinar nibh.
+
 
 Resume:
 \html{<i class="fa fa-book-open" style="font-size:1.5rem"></i>} |
@@ -12,6 +19,13 @@ Email:
 \html{<i class="fa fa-envelope" style="font-size:1.5rem"></i>} |
 ADS:
 \html{<i class="fa fa-rocket" style="font-size:1.5rem"></i>}
+\end{column}
+\begin{column}{}
+
+\figure{path = "/assets/nice_image.jpg"}
+
+\end{column}
+\end{columns}
 
 \end{section}
 
