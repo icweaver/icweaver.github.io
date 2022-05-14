@@ -147,6 +147,7 @@ commands that are defined and used in PkgPage.jl
 @def showall         = true
 
 \newcommand{\html}[1]{~~~#1~~~}
+\newcommand{\link}[2]{\html{<a href=#2 target="_blank">#1</a>}}
 
 \newenvironment{center}{\html{<div style="text-align:center;">}}{\html{</div>}}
 

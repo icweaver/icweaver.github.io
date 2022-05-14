@@ -4,33 +4,28 @@
 \html{<a href="https://github.com/icweaver/" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>}
 \html{<a href="mailto:iweaver@mailbox.org" target="_blank"><i class="fa fa-envelope" style="font-size:1.5rem"></i></a>}
 
-\begin{columns}
-\begin{column}{}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia mollis ligula, in malesuada ex vestibulum ut.
-Phasellus elementum, nibh elementum pellentesque aliquet, nibh orci mollis diam, tristique venenatis purus metus at
-metus. Vivamus ac nisl volutpat, placerat orci id, porta felis. Suspendisse mattis, orci id egestas tempor, enim orci
-interdum mauris, non consequat dui felis vel lectus. Pellentesque non sollicitudin elit. Vivamus porttitor, tellus non
-egestas consectetur, quam elit efficitur nulla, vel tincidunt mi sem eu erat. Suspendisse a pulvinar nibh.
+\html{<img align="right" src="/assets/profile.jpg">}
 
+Hi all, I'm Ian, a recent PhD graduate from the \link{Center for Astrophysics | Harvard &
+Smithsonian}{https://pweb.cfa.harvard.edu/}. I focused on studying large exoplanets with \link{large
+telescopes}{https://obs.carnegiescience.edu/Magellan}, and writing software to analyze them. I worked on all stages of
+the process, from the extraction and reduction of the raw \link{time series spectral
+data}{http://astro.dur.ac.uk/~knpv27/pg_dr_course/pg_dr_spectroscopy.html}, to the detrending of potential signals via
+different \link{Gaussian Process (GP)}{https://en.wikipedia.org/wiki/Gaussian_process} and \link{Principal Component Analysis
+(PCA)}{https://en.wikipedia.org/wiki/Principal_component_analysis} techniques, to the application of different
+statistical Bayesian frameworks such as \link{Markov chain Monte
+Carlo (MCMC)}{https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo} and \link{nested
+samplers}{https://en.wikipedia.org/wiki/Nested_sampling_algorithm} to study the atmospheres of these other worlds.
+
+In my free time, I love rowing, hiking, and \link{learning about Julia}{https://exercism.org/profiles/icweaver/testimonials} with other folks!
 
 Resume:
-\html{<a href="" target="_blank"><i class="fa fa-book-open"></i></a>} |
+\link{<i class="fa fa-book-open"></i>}{""} |
 CV:
-\html{<a href="/assets/cv.pdf" target="_blank"><i class="fa fa-rectangle-list"></i></a>} |
+\link{<i class="fa fa-rectangle-list"></i>}{/assets/cv.pdf} |
 NASA ADS:
-\html{<a href="https://ui.adsabs.harvard.edu/public-libraries/6nMcPukqSpiQq_0Ak7g8sA" target="_blank"><i class="fa fa-rocket"></i></a>}
-\end{column}
-\begin{column}{}
-
-\begin{center}
-\figure{path = "/assets/nice_image.jpg"}
-
-\end{center}
-
-\end{column}
-\end{columns}
-
+\link{<i class="fa fa-rocket"></i>}{https://ui.adsabs.harvard.edu/public-libraries/6nMcPukqSpiQq_0Ak7g8sA}
 \end{section}
 
 \begin{section}{title="Projects"}
