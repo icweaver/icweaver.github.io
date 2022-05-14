@@ -63,11 +63,17 @@ pre code.hljs.plaintext {
 
 p, em, code, h1 {color: #faf0e6}
 
-#about    {background-color: grey}
-#projects {background-color: #ff7f00}
-#research {background-color: #416fd4}
+#about    {background-color: #5e42a6}
+#projects {background-color: #b74e91}
+#research {background-color: #5052b5}
 #cv       {background-color: #0097a7}
 
 .main-header {
   text-align: center;
 }
+
+/*
+.navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+    border-right: 2px solid #faf0e6;
+}
+*/
