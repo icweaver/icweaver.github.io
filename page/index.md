@@ -2,6 +2,7 @@
 # Ian Weaver, PhD
 \html{<a href="https://www.linkedin.com/in/icweaver/" target="_blank"><i class="fa-brands fa-linkedin" style="font-size:1.5rem"></i></a>}
 \html{<a href="https://github.com/icweaver/" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>}
+\html{<a href="mailto:iweaver@mailbox.org" target="_blank"><i class="fa fa-envelope" style="font-size:1.5rem"></i></a>}
 
 \begin{columns}
 \begin{column}{}
@@ -17,8 +18,6 @@ Resume:
 \html{<a href="" target="_blank"><i class="fa fa-book-open"></i></a>} |
 CV:
 \html{<a href="/assets/cv.pdf" target="_blank"><i class="fa fa-rectangle-list"></i></a>} |
-Email:
-\html{<a href="mailto:iweaver@mailbox.org" target="_blank"><i class="fa fa-envelope"></i></a>} |
 NASA ADS:
 \html{<a href="https://ui.adsabs.harvard.edu/public-libraries/6nMcPukqSpiQq_0Ak7g8sA" target="_blank"><i class="fa fa-rocket"></i></a>}
 \end{column}
@@ -37,13 +36,14 @@ NASA ADS:
 \begin{section}{title="Projects"}
 # Exoplanets
 
-whoooa 🪐
+Data wrangling/visualization of publicly available exoplanet data, with Julia and
+\html{<a href="https://github.com/fonsp/Pluto.jl">Pluto.jl</a>}.
 
 \begin{columns}
 \begin{column}{}
-**_Sky map visualization_**
+**_Exo location visualization_**
   \figure{
-    path = "/assets/nice_image.jpg",
+    path = "/assets/exoplanets_astroimages.png",
     caption = "Pluto.jl + AstroImages.jl = ❤"
   }
 \end{column}
@@ -51,8 +51,8 @@ whoooa 🪐
 \begin{column}{}
 **_System parameters calculator_**
   \figure{
-    path = "/assets/nice_image.jpg",
-    caption = "Pluto.jl + AstroImages.jl = ❤"
+    path = "/assets/exocalc.png",
+    caption = "Know thy star, know thy planet"
   }
 \end{column}
 \end{columns}
