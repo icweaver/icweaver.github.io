@@ -40,7 +40,7 @@ whoooa 🪐
 
 # spacejam
 \html{
-<a href="https://github.com/cs207-SpaceJam/cs207-FinalProject" target="_blank"><i class="fa fa-github" style="font-size:1.5rem"></i></a>
+<a href="https://github.com/cs207-SpaceJam/cs207-FinalProject" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>
 <a href="https://spacejam.readthedocs.io/en/latest/index.html" target="_blank"><i class="fa fa-book" style="font-size:1.5rem"></i></a>
 }
 
@@ -67,7 +67,7 @@ Python package for numerical integration, powered by [automatic differentiation]
 
 # Accretion stream toy model
 \html{
-<a href="https://github.com/icweaver/particle_trajectory" target="_blank"><i class="fa fa-github" style="font-size:1.5rem"></i></a>
+<a href="https://github.com/icweaver/particle_trajectory" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>
 }
 
 Written in Fortran, visualized in Python.
@@ -126,7 +126,10 @@ Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.e
 
 \begin{section}{name="Research"}
 # WASP-50b (Weaver et al. submitted)
-(https://icweaver.github.io/WASP-50b/)
+\html{
+<a href="https://github.com/icweaver/WASP-50b" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>
+<a href="https://icweaver.github.io/WASP-50b/" target="_blank"><i class="fa fa-book" style="font-size:1.5rem"></i></a>
+}
   \figure{
     path = "/assets/nice_image.jpg",
     caption = "We present a new <b>ground-based visual transmission spectrum</b> of the hot Jupiter WASP-43b, obtained
@@ -141,7 +144,11 @@ Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.e
   }
 
 # HAT-P-23b (Weaver et al. 2021)
-(https://icweaver.github.io/HAT-P-23b/README.html)
+\html{
+<a href="https://github.com/icweaver/HAT-P-23b" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>
+<a href="https://icweaver.github.io/HAT-P-23b/" target="_blank"><i class="fa fa-book" style="font-size:1.5rem"></i></a>
+<a href="https://ui.adsabs.harvard.edu/abs/2021AJ....161..278W/abstract" target="_blank"><i class="fa fa-newspaper" style="font-size:1.5rem"></i></a>
+}
   \figure{
     path = "/assets/nice_image.jpg",
     caption = "We present a new <b>ground-based visible transmission spectrum</b> of the <b>high-gravity, hot
@@ -159,7 +166,10 @@ Below are hydrodynamical simulations made with [FLASH](https://flash.rochester.e
   }
 
 # WASP-43b (Weaver et al. 2020)
-(https://ui.adsabs.harvard.edu/abs/2020AJ....159...13W/abstract)
+\html{
+<a href="https://github.com/icweaver/ACCESS_notebook" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>
+<a href="https://ui.adsabs.harvard.edu/abs/2020AJ....159...13W/abstract" target="_blank"><i class="fa fa-newspaper" style="font-size:1.5rem"></i></a>
+}
   \figure{
     path = "/assets/nice_image.jpg",
     caption = "We present a new <b>ground-based visual transmission spectrum</b> of the hot Jupiter WASP-43b, obtained as
