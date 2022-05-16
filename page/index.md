@@ -12,10 +12,10 @@ Smithsonian}{https://pweb.cfa.harvard.edu/}. I focused on studying large exoplan
 telescopes}{https://obs.carnegiescience.edu/Magellan}, and writing software to analyze them. I worked on all stages of
 the process, from the extraction and reduction of the raw \link{time series spectral
 data}{http://astro.dur.ac.uk/~knpv27/pg_dr_course/pg_dr_spectroscopy.html}, to the detrending of potential signals via
-different \link{Gaussian Process (GP)}{https://en.wikipedia.org/wiki/Gaussian_process} and \link{Principal Component
-Analysis (PCA)}{https://en.wikipedia.org/wiki/Principal_component_analysis} techniques, to the applications of different
-statistical Bayesian frameworks such as \link{Markov chain Monte Carlo
-(MCMC)}{https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo} and \link{nested
+different Gaussian Process \link{(GP)}{https://en.wikipedia.org/wiki/Gaussian_process} and Principal Component Analysis
+\link{(PCA)}{https://en.wikipedia.org/wiki/Principal_component_analysis} techniques, to the applications of a range of
+statistical Bayesian inference frameworks including Markov chain Monte Carlo
+\link{(MCMC)}{https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo} and \link{nested
 sampling}{https://en.wikipedia.org/wiki/Nested_sampling_algorithm} to study the atmospheres of these other worlds.
 
 In my free time, I love rowing, participating in \link{STEM outreach}{https://www.theopenlabs.org/harvard}, and
