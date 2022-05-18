@@ -14,6 +14,11 @@ section { padding: 75px 0; }
   text-decoration: none;
 }
 
+/* Add divider before last item in navbar */
+.navbar .navbar-nav .nav-item:is(:last-child) .nav-link {
+  border-left: 2px solid hotpink;
+}
+
 a.nav-link.active { color: #faf0e6 !important; }
 
 /* FORMATTING */
@@ -85,6 +90,7 @@ a.nav-link.active {
 /* override footer text color */
 .text-white {color: #faf0e6 !important}
 
+/* Profile picture */
 #hp  {
   float: right;
   margin: 0 0 0 1.5rem;
@@ -92,9 +98,3 @@ a.nav-link.active {
 }
 
 #outer {border-radius: 0.5rem; overflow: hidden}
-
-/*
-.navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
-    border-right: 2px solid #faf0e6;
-}
-*/
