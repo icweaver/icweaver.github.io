@@ -150,5 +150,4 @@ commands that are defined and used in PkgPage.jl
 \newcommand{\link}[2]{\html{<a href=#2 target="_blank">#1</a>}}
 
 \newenvironment{center}{\html{<div style="text-align:center;">}}{\html{</div>}}
-
 \newenvironment{columns}{\html{<div class="container"><div class="row">}}{\html{</div></div>}}
