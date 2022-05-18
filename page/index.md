@@ -22,9 +22,9 @@ In my free time, I love rowing, participating in \link{STEM outreach}{https://ww
 \link{learning more about Julia}{https://exercism.org/profiles/icweaver/testimonials} with other folks!
 
 Resume:
-\link{<i class="fa fa-book-open"></i>}{""} |
+\link{<i class="fa fa-rectangle-list"></i>}{""} |
 CV:
-\link{<i class="fa fa-rectangle-list"></i>}{/assets/cv.pdf} |
+\link{<i class="fa fa-book-open"></i>}{/assets/ian_weaver_cv.pdf} |
 NASA ADS:
 \link{<i class="fa fa-rocket"></i>}{https://ui.adsabs.harvard.edu/public-libraries/6nMcPukqSpiQq_0Ak7g8sA}
 \end{section}
