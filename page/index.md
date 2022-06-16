@@ -7,18 +7,19 @@
 
 \html{<img align="right" src="/assets/profile.jpg" id="hp">}
 
-Hi, I'm Ian, a recent PhD graduate from the \link{Center for Astrophysics | Harvard &
+Hi, I'm Ian, a recent PhD from the \link{Center for Astrophysics | Harvard &
 Smithsonian}{https://pweb.cfa.harvard.edu/}. I focused on studying large exoplanets with \link{large
-telescopes}{https://obs.carnegiescience.edu/Magellan}, and writing software to analyze them. I worked on all stages of
-the process, from the extraction and reduction of the raw \link{time series spectral
-data}{http://astro.dur.ac.uk/~knpv27/pg_dr_course/pg_dr_spectroscopy.html}, to the detrending of potential signals via
+telescopes}{https://obs.carnegiescience.edu/Magellan} and writing software to analyze them. I worked on all stages of
+the process, including extraction and reduction of the raw \link{time series spectral
+data}{http://astro.dur.ac.uk/~knpv27/pg_dr_course/pg_dr_spectroscopy.html}, detrending of potential signals via
 different Gaussian Process \link{(GP)}{https://en.wikipedia.org/wiki/Gaussian_process} and Principal Component Analysis
-\link{(PCA)}{https://en.wikipedia.org/wiki/Principal_component_analysis} techniques, to the applications of a range of
+\link{(PCA)}{https://en.wikipedia.org/wiki/Principal_component_analysis} techniques, and the applications of a range of
 statistical Bayesian inference frameworks including Markov chain Monte Carlo
 \link{(MCMC)}{https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo} and \link{nested
 sampling}{https://en.wikipedia.org/wiki/Nested_sampling_algorithm} to study the atmospheres of these other worlds.
 
-In my free time, I love rowing, participating in \link{STEM outreach}{https://www.theopenlabs.org/harvard}, and
+In my free time, I love rowing, participating in \link{STEM outreach}{https://www.theopenlabs.org/harvard} in
+underrepresented communities, and
 \link{learning more about Julia}{https://exercism.org/profiles/icweaver/testimonials} with other folks!
 
 Resume:
@@ -32,23 +33,24 @@ NASA ADS:
 \begin{section}{title="Projects"}
 # Exoplanets
 
-Data wrangling/visualization of publicly available exoplanet data, with Julia and
+Data wrangling/visualization of publicly available exoplanet data, with [Julia](https://julialang.org/) and
 \html{<a href="https://github.com/fonsp/Pluto.jl">Pluto.jl</a>}.
 
 \begin{columns}
 \begin{column}{}
-**_Exo location visualization_**
+**_Exoplanet locator_** \html{<a href="https://icweaver.github.io/Pluto_sample_notebooks/astroimages.html" target="_blank"><i class="fa-brands fa-github" style="font-size:1.0rem"></i></a>}
   \figure{
-    path = "/assets/exoplanets_astroimages.png",
-    caption = "Pluto.jl + AstroImages.jl = ❤"
+    path = "/assets/constellations.svg",
+    caption = "An \"exoplanet sky chart\" created with data queried from the exoplanet archive, bright star locations from the Hipparcos, Yale Bright Star, Gliese (HYG) database, and asterisms from the Stellarium public repo."
   }
 \end{column}
 
 \begin{column}{}
-**_System parameters calculator_**
+**_System parameters calculator_** \html{<a href="https://icweaver.github.io/ExoCalc.jl/" target="_blank"><i class="fa-brands fa-github" style="font-size:1.0rem"></i></a>}
   \figure{
     path = "/assets/exocalc.png",
-    caption = "Know thy star, know thy planet"
+    caption = "Self-consistent computations of exoplanet parameters from stellar and orbital observations. Useful for
+    estimating the potential observability of an exoplanet's atmopshere."
   }
 \end{column}
 \end{columns}
@@ -101,7 +103,7 @@ The same integration method applied to the Lotka–Volterra system of differenti
 <a href="https://github.com/icweaver/particle_trajectory" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>
 }
 
-Written in Fortran, visualized in Python.
+Orbital dynamics code written in Fortran, visualized in Python.
 
 \begin{columns}
 \begin{column}{}
