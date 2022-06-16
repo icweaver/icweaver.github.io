@@ -178,18 +178,32 @@ were used to create virtual light curves to compare with observations from HST's
 <a href="https://github.com/icweaver/WASP-50b" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>
 <a href="https://icweaver.github.io/WASP-50b/" target="_blank"><i class="fa fa-book" style="font-size:1.5rem"></i></a>
 }
+\begin{columns}
+\begin{column}{}
+
   \figure{
-    path = "/assets/tspec_wasp50b.svg",
-    caption = "We present a new <b>ground-based visual transmission spectrum</b> of the hot Jupiter WASP-43b, obtained
-    as part of <b>ACCESS</b>. We collected four transits observed between 2015 and 2018, with a combined wavelength
-    coverage between 5300 and 9000 Å and an average photometric precision of 708 ppm in 230 Å bins. We perform an
-    <b>atmospheric retrieval</b> of our transmission spectrum combined with literature Hubble Space Telescope/WFC3
-    observations to search for the presence of clouds/hazes as well as Na, K, Hα, and H₂O planetary absorption and
-    stellar spot contamination. <b>We do not detect a statistically significant presence of Na I or K I alkali lines, or
-    Hα in the atmosphere of WASP-43b</b>. We find that the observed transmission spectrum can be best explained by a
-    combination of heterogeneities on the photosphere of the host star and a <b>clear planetary</b> atmosphere with
-    water."
+    path = "/assets/w50_left.svg",
+    caption = ""
   }
+\end{column}
+
+\begin{column}{}
+
+  \figure{
+    path = "/assets/w50_right.svg",
+    caption = ""
+  }
+\end{column}
+\end{columns}
+
+We present a new **ground-based visual transmission spectrum** of the hot Jupiter WASP-43b, obtained as part of
+**ACCESS**. We collected four transits observed between 2015 and 2018, with a combined wavelength coverage between
+5300 and 9000 Å and an average photometric precision of 708 ppm in 230 Å bins. We perform an **atmospheric
+retrieval** of our transmission spectrum combined with literature Hubble Space Telescope/WFC3 observations to search
+for the presence of clouds/hazes as well as Na, K, Hα, and H₂O planetary absorption and stellar spot contamination.
+**We do not detect a statistically significant presence of Na I or K I alkali lines, or Hα in the atmosphere of
+WASP-43b**. We find that the observed transmission spectrum can be best explained by a combination of heterogeneities
+on the photosphere of the host star and a **clear planetary** atmosphere with water.
 
 # HAT-P-23b (Weaver et al. 2021)
 \html{
