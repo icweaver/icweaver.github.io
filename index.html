@@ -103,12 +103,12 @@ pre code.hljs.plaintext {
 <h1 id="ian_weaver_phd"><a href="#ian_weaver_phd" class="header-anchor">Ian Weaver, Ph.D.</a></h1>
 <p> <a href="https://www.linkedin.com/in/icweaver/" target="_blank"><i class="fa-brands fa-linkedin" style="font-size:1.5rem"></i></a>  <a href="https://github.com/icweaver/" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>  <a href="mailto:iweaver@mailbox.org" target="_blank"><i class="fa fa-envelope" style="font-size:1.5rem"></i></a></p>
  <img align="right" src="/assets/profile.jpg" id="hp">
-<p>Hi, I&#39;m Ian, a recent PhD graduate from the  <a href= https://pweb.cfa.harvard.edu/ target="_blank"> Center for Astrophysics | Harvard &
+<p>Hi, I&#39;m Ian, a recent PhD from the  <a href= https://pweb.cfa.harvard.edu/ target="_blank"> Center for Astrophysics | Harvard &
 Smithsonian</a>. I focused on studying large exoplanets with  <a href= https://obs.carnegiescience.edu/Magellan target="_blank"> large
-telescopes</a>, and writing software to analyze them. I worked on all stages of the process, from the extraction and reduction of the raw  <a href= http://astro.dur.ac.uk/~knpv27/pg_dr_course/pg_dr_spectroscopy.html target="_blank"> time series spectral
-data</a>, to the detrending of potential signals via different Gaussian Process  <a href= https://en.wikipedia.org/wiki/Gaussian_process target="_blank"> (GP)</a> and Principal Component Analysis  <a href= https://en.wikipedia.org/wiki/Principal_component_analysis target="_blank"> (PCA)</a> techniques, to the applications of a range of statistical Bayesian inference frameworks including Markov chain Monte Carlo  <a href= https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo target="_blank"> (MCMC)</a> and  <a href= https://en.wikipedia.org/wiki/Nested_sampling_algorithm target="_blank"> nested
+telescopes</a> and writing software to analyze them. I worked on all stages of the process, including extraction and reduction of the raw  <a href= http://astro.dur.ac.uk/~knpv27/pg_dr_course/pg_dr_spectroscopy.html target="_blank"> time series spectral
+data</a>, detrending of potential signals via different Gaussian Process  <a href= https://en.wikipedia.org/wiki/Gaussian_process target="_blank"> (GP)</a> and Principal Component Analysis  <a href= https://en.wikipedia.org/wiki/Principal_component_analysis target="_blank"> (PCA)</a> techniques, and the applications of a range of statistical Bayesian inference frameworks including Markov chain Monte Carlo  <a href= https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo target="_blank"> (MCMC)</a> and  <a href= https://en.wikipedia.org/wiki/Nested_sampling_algorithm target="_blank"> nested
 sampling</a> to study the atmospheres of these other worlds.</p>
-<p>In my free time, I love rowing, participating in  <a href= https://www.theopenlabs.org/harvard target="_blank"> STEM outreach</a>, and  <a href= https://exercism.org/profiles/icweaver/testimonials target="_blank"> learning more about Julia</a> with other folks&#33;</p>
+<p>In my free time, I love rowing, participating in  <a href= https://www.theopenlabs.org/harvard target="_blank"> STEM outreach</a> in underrepresented communities, and  <a href= https://exercism.org/profiles/icweaver/testimonials target="_blank"> learning more about Julia</a> with other folks&#33;</p>
 <p>Resume:  <a href= /assets/ian_weaver_resume.pdf target="_blank"> <i class="fa fa-rectangle-list"></i></a> | CV:  <a href= /assets/ian_weaver_cv.pdf target="_blank"> <i class="fa fa-book-open"></i></a> | NASA ADS:  <a href= https://ui.adsabs.harvard.edu/public-libraries/6nMcPukqSpiQq_0Ak7g8sA target="_blank"> <i class="fa fa-rocket"></i></a>       </div>
     </div>
   </div>
@@ -119,19 +119,21 @@ sampling</a> to study the atmospheres of these other worlds.</p>
       <div class="col-lg-80 mx-auto">
         <h2>Projects</h2></p>
 <h1 id="exoplanets"><a href="#exoplanets" class="header-anchor">Exoplanets</a></h1>
-<p>Data wrangling/visualization of publicly available exoplanet data, with Julia and  <a href="https://github.com/fonsp/Pluto.jl">Pluto.jl</a>.</p>
- <div class="container"><div class="row"> <div class="col "> <strong><em>Exo location visualization</em></strong> <figure class="figure">
-  <img src="/assets/exoplanets_astroimages.png" alt="Pluto.jl + AstroImages.jl = ❤" class="figure-img img-fluid " width="" >
+<p>Data wrangling/visualization of publicly available exoplanet data, with <a href="https://julialang.org/">Julia</a> and  <a href="https://github.com/fonsp/Pluto.jl">Pluto.jl</a>.</p>
+ <div class="container"><div class="row"> <div class="col "> <strong><em>Exoplanet locator</em></strong>  <a href="https://icweaver.github.io/Pluto_sample_notebooks/astroimages.html" target="_blank"><i class="fa-brands fa-github" style="font-size:1.0rem"></i></a> <figure class="figure">
+  <img src="/assets/constellations.svg" alt="An "exoplanet sky chart" created with data queried from the exoplanet archive, bright star locations from the Hipparcos, Yale Bright Star, Gliese (HYG) database, and asterisms from the Stellarium public repo." class="figure-img img-fluid " width="" >
   <figcaption class="figure-caption ">
-Pluto.jl + AstroImages.jl = ❤
+An "exoplanet sky chart" created with data queried from the exoplanet archive, bright star locations from the Hipparcos, Yale Bright Star, Gliese (HYG) database, and asterisms from the Stellarium public repo.
 </figcaption>
 
 </figure>
  </div></p>
-<p><div class="col "> <strong><em>System parameters calculator</em></strong> <figure class="figure">
-  <img src="/assets/exocalc.png" alt="Know thy star, know thy planet" class="figure-img img-fluid " width="" >
+<p><div class="col "> <strong><em>System parameters calculator</em></strong>  <a href="https://icweaver.github.io/ExoCalc.jl/" target="_blank"><i class="fa-brands fa-github" style="font-size:1.0rem"></i></a> <figure class="figure">
+  <img src="/assets/exocalc.png" alt="Self-consistent computations of exoplanet parameters from stellar and orbital observations. Useful for
+    estimating the potential observability of an exoplanet's atmopshere." class="figure-img img-fluid " width="" >
   <figcaption class="figure-caption ">
-Know thy star, know thy planet
+Self-consistent computations of exoplanet parameters from stellar and orbital observations. Useful for
+    estimating the potential observability of an exoplanet's atmopshere.
 </figcaption>
 
 </figure>
@@ -158,7 +160,7 @@ Know thy star, know thy planet
  <br>
 <h1 id="accretion_stream_toy_model"><a href="#accretion_stream_toy_model" class="header-anchor">Accretion stream toy model</a></h1>
  <a href="https://github.com/icweaver/particle_trajectory" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>
-<p>Written in Fortran, visualized in Python.</p>
+<p>Orbital dynamics code written in Fortran, visualized in Python.</p>
  <div class="container"><div class="row"> <div class="col "> <strong><em>Artificial energy loss</em></strong>  <div id="outer">
 <img src="/assets/sho_inertial_3D.gif" width="100%" alt="Banner Image"/>
 </div></p>
