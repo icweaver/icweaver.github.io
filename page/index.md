@@ -38,7 +38,9 @@ Data wrangling/visualization of publicly available exoplanet data, with [Julia](
 
 \begin{columns}
 \begin{column}{}
-**_Exoplanet locator_** \html{<a href="https://icweaver.github.io/Pluto_sample_notebooks/astroimages.html" target="_blank"><i class="fa-brands fa-github" style="font-size:1.0rem"></i></a>}
+**_Exoplanet locator_**
+\html{<a href="https://github.com/icweaver/Pluto_sample_notebooks/blob/main/astroimages.jl" target="_blank"><i class="fa-brands fa-github" style="font-size:1.0rem"></i></a>}
+\html{<a href="https://icweaver.github.io/Pluto_sample_notebooks/astroimages.html" target="_blank"><i class="fa fa-book" style="font-size:1.0rem"></i></a>}
   \figure{
     path = "/assets/constellations.svg",
     caption = "An \"exoplanet sky chart\" created with data queried from the exoplanet archive, bright star locations from the Hipparcos, Yale Bright Star, Gliese (HYG) database, and asterisms from the Stellarium public repo."
@@ -46,7 +48,9 @@ Data wrangling/visualization of publicly available exoplanet data, with [Julia](
 \end{column}
 
 \begin{column}{}
-**_System parameters calculator_** \html{<a href="https://icweaver.github.io/ExoCalc.jl/" target="_blank"><i class="fa-brands fa-github" style="font-size:1.0rem"></i></a>}
+**_System parameters calculator_**
+\html{<a href="https://github.com/icweaver/ExoCalc.jl" target="_blank"><i class="fa-brands fa-github" style="font-size:1.0rem"></i></a>}
+\html{<a href="https://icweaver.github.io/ExoCalc.jl/" target="_blank"><i class="fa fa-book" style="font-size:1.0rem"></i></a>}
   \figure{
     path = "/assets/exocalc.png",
     caption = "Self-consistent computations of exoplanet parameters from stellar and orbital observations. Useful for
