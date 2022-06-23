@@ -43,7 +43,7 @@ Data wrangling/visualization of publicly available exoplanet data, with [Julia](
 \html{<a href="https://icweaver.github.io/Pluto_sample_notebooks/astroimages.html" target="_blank"><i class="fa fa-book" style="font-size:1.0rem"></i></a>}
   \figure{
     path = "/assets/constellations.svg",
-    caption = "An \"exoplanet sky chart\" created with data queried from the exoplanet archive, bright star locations from the Hipparcos, Yale Bright Star, Gliese (HYG) database, and asterisms from the Stellarium public repo."
+    caption = "A groovy exoplanet sky chart created with data queried from the exoplanet archive, bright star locations from the Hipparcos, Yale Bright Star, Gliese (HYG) database, and asterisms from the Stellarium public repo."
   }
 \end{column}
 
