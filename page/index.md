@@ -5,7 +5,7 @@
 \html{<a href="mailto:iweaver@mailbox.org" target="_blank"><i class="fa fa-envelope" style="font-size:1.5rem"></i></a>}
 
 
-\html{<img align="right" src="/assets/profile.jpg" id="hp">}
+\html{<img align="right" src="/assets/profile.png" id="hp">}
 
 Hi, I'm Ian, a recent PhD from the \link{Center for Astrophysics | Harvard &
 Smithsonian}{https://pweb.cfa.harvard.edu/}. I focused on studying large exoplanets with \link{large
