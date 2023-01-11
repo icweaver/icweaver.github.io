@@ -3,9 +3,9 @@
 \html{<a href="https://www.linkedin.com/in/icweaver/" target="_blank"><i class="fa-brands fa-linkedin" style="font-size:1.5rem"></i></a>}
 \html{<a href="https://github.com/icweaver/" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>}
 \html{<a href="mailto:iweaver@mailbox.org" target="_blank"><i class="fa fa-envelope" style="font-size:1.5rem"></i></a>}
+\html{<img align="right" src="/assets/profile.jpg" id="hp" width=20%>}
 
 
-\html{<img align="right" src="/assets/profile.png" id="hp">}
 
 Hi, I'm Ian, a recent PhD from the \link{Center for Astrophysics | Harvard &
 Smithsonian}{https://pweb.cfa.harvard.edu/}. I focused on studying large exoplanets with \link{large
