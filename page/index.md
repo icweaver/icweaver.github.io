@@ -54,14 +54,14 @@ overlap in different people's schedules.
 \end{column}
 
 \begin{column}{}
-**_Matrix_**
+**_Matching Matrix_**
 \figure{
     path = "/assets/scheduler.png",
     caption = "This is the resulting matching matrix seen on the tutor coordinator's end. The data is automatically
-    extracted and post-processed to compute the intersections between available dates/times for all tutor-mentor /
-    student combinations. The results are then plotted and a handy tooltip displays
-    the overlapping times for a given tutor-mentor / student pair, which can automatically copied to the clipboard by
-    clicking the cell."
+    downloaded, extracting, and post-processed to display the intersections between available dates/times for
+    all tutor-mentor / student combinations. A handy tooltip also displays the overlapping
+    times for a given tutor-mentor / student pair, which is automatically copied to the clipboard at the click of a
+    mouse."
 }
 \end{column}
 \end{columns}
