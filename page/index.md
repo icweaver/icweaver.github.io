@@ -18,7 +18,7 @@ statistical Bayesian inference frameworks including Markov chain Monte Carlo
 \link{(MCMC)}{https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo} and \link{nested
 sampling}{https://en.wikipedia.org/wiki/Nested_sampling_algorithm} to study the atmospheres of these other worlds.
 
-In my free time, I love rowing, participating in \link{STEM outreach}{https://www.theopenlabs.org/harvard} in
+In my free time, I love rowing, participating in \link{STEM outreach}{https://www.onaketa.com/} in
 underrepresented communities, and
 \link{learning more about Julia}{https://exercism.org/profiles/icweaver/testimonials} with other folks!
 
@@ -31,6 +31,41 @@ NASA ADS:
 \end{section}
 
 \begin{section}{title="Projects"}
+
+# Tutor-mentor / student matching
+\html{
+<a href="https://github.com/icweaver/onaketa/tree/main/matching" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>
+<a href="https://icweaver.github.io/onaketa/matching/matching.jl.html" target="_blank"><i class="fa fa-book" style="font-size:1.5rem"></i></a>
+}
+
+As a tutor coordinator, I was looking for an efficient way to match tutor-mentors with students. This turned into a fun
+weekend project turning the raw data from the awesome scheduling tool [WhenIsGood](https://whenisgood.net/) into a colorful matching matrix showing the common
+overlap in different people's schedules.
+
+\begin{columns}
+\begin{column}{}
+**_WhenIsGood_**
+\figure{
+    path = "/assets/whenisgood.png",
+    caption = "An example of the site seen on the user's end. Just click and drag over your availability and submit when
+    you are done. The unix timestamps for the entries from each user is stored at the bottom of the results page HTML within
+    a javascript tag. I extract this data in the next step to create the following visualization."
+}
+\end{column}
+
+\begin{column}{}
+**_Matrix_**
+\figure{
+    path = "/assets/scheduler.png",
+    caption = "This is the resulting matching matrix seen on the tutor coordinator's end. The data is automatically
+    extracted and post-processed to compute the intersections between available dates/times for all tutor-mentor /
+    student combinations. The results are then plotted and a handy tooltip displays
+    the overlapping times for a given tutor-mentor / student pair, which can automatically copied to the clipboard by
+    clicking the cell."
+}
+\end{column}
+\end{columns}
+
 # Exoplanets
 
 Data wrangling/visualization of publicly available exoplanet data, with [Julia](https://julialang.org/) and
