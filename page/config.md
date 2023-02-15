@@ -23,7 +23,7 @@ The latter allows you to plug in values that you would have defined here.
 @def description = """
                    software, science, s'mores
                    """
-@def authors     = "Ian Weaver 2022"
+@def authors     = "Ian Weaver 2023"
 
 <!--  NAVBAR SPECS
   NOTE:
