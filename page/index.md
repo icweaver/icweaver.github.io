@@ -25,7 +25,7 @@ underrepresented communities, and
 Resume:
 \link{<i class="fa fa-rectangle-list"></i>}{/assets/ian_weaver_resume.pdf} |
 CV:
-\link{<i class="fa fa-book-open"></i>}{/assets/ian_weaver_cv.pdf} |
+\link{<i class="fa fa-book-open"></i>}{https://raw.githubusercontent.com/icweaver/about/main/cv.pdf} |
 NASA ADS:
 \link{<i class="fa fa-rocket"></i>}{https://ui.adsabs.harvard.edu/public-libraries/6nMcPukqSpiQq_0Ak7g8sA}
 \end{section}
