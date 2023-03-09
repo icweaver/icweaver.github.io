@@ -2,10 +2,8 @@
 # Ian Weaver, Ph.D.
 \html{<a href="https://www.linkedin.com/in/icweaver/" target="_blank"><i class="fa-brands fa-linkedin" style="font-size:1.5rem"></i></a>}
 \html{<a href="https://github.com/icweaver/" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>}
-\html{<a href="mailto:iweaver@mailbox.org" target="_blank"><i class="fa fa-envelope" style="font-size:1.5rem"></i></a>}
+\html{<a href="mailto:weaveric@gmail.com" target="_blank"><i class="fa fa-envelope" style="font-size:1.5rem"></i></a>}
 \html{<img align="right" src="/assets/profile.jpg" id="hp" width=20%>}
-
-
 
 Hi, I'm Ian, a recent PhD from the \link{Center for Astrophysics | Harvard &
 Smithsonian}{https://pweb.cfa.harvard.edu/}. I focused on studying large exoplanets with \link{large
@@ -23,7 +21,7 @@ underrepresented communities, and
 \link{learning more about Julia}{https://exercism.org/profiles/icweaver/testimonials} with other folks!
 
 Resume:
-\link{<i class="fa fa-rectangle-list"></i>}{/assets/ian_weaver_resume.pdf} |
+\link{<i class="fa fa-rectangle-list"></i>}{https://raw.githubusercontent.com/icweaver/about/main/resume.pdf} |
 CV:
 \link{<i class="fa fa-book-open"></i>}{https://raw.githubusercontent.com/icweaver/about/main/cv.pdf} |
 NASA ADS:
@@ -289,7 +287,6 @@ on the photosphere of the host star and a **clear planetary** atmosphere with wa
   <img src="/assets/c_and_h_banner.jpeg" width="100%" alt="Banner Image"/>
 </div>
 }
-
 
 \html{
     <meta name="viewport" content="width=device-width, initial-scale=1">
