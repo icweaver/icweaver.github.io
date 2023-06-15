@@ -16,7 +16,7 @@ statistical Bayesian inference frameworks including Markov chain Monte Carlo
 \link{(MCMC)}{https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo} and \link{nested
 sampling}{https://en.wikipedia.org/wiki/Nested_sampling_algorithm} to study the atmospheres of these other worlds.
 
-In my free time, I love rowing, participating in \link{STEM outreach}{https://www.onaketa.com/} in
+In my free time, I love rowing, participating in \link{STEM outreach}{https://www.onaketa.org/} in
 underrepresented communities, and
 \link{learning more about Julia}{https://exercism.org/profiles/icweaver/testimonials} with other folks!
 
