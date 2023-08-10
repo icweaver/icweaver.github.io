@@ -1,5 +1,5 @@
 \begin{section}{title="About"}
-# Ian Weaver, Ph.D.
+# Ian C. Weaver, Ph.D.
 \html{<a href="https://www.linkedin.com/in/icweaver/" target="_blank"><i class="fa-brands fa-linkedin" style="font-size:1.5rem"></i></a>}
 \html{<a href="https://github.com/icweaver/" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>}
 \html{<a href="mailto:weaveric@gmail.com" target="_blank"><i class="fa fa-envelope" style="font-size:1.5rem"></i></a>}

@@ -18,12 +18,12 @@ The latter allows you to plug in values that you would have defined here.
              `prepath` to an empty string. Finally, adjust this if you want the
              deployed page to be in a subfolder e.g.: `YourPackage.jl/web/`.
 -->
-@def title       = "Ian Weaver, Ph.D."
+@def title       = "Ian C. Weaver, Ph.D."
 @def prepath     = ""
 @def description = """
                    software, science, s'mores
                    """
-@def authors     = "Ian Weaver 2023"
+@def authors     = "Ian C. Weaver 2023"
 
 <!--  NAVBAR SPECS
   NOTE:
