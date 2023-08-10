@@ -21,9 +21,9 @@ underrepresented communities, and
 \link{learning more about Julia}{https://exercism.org/profiles/icweaver/testimonials} with other folks!
 
 Resume:
-\link{<i class="fa fa-rectangle-list"></i>}{https://raw.githubusercontent.com/icweaver/about/main/resume.pdf} |
+\link{<i class="fa fa-rectangle-list"></i>}{/assets/resume.pdf} |
 CV:
-\link{<i class="fa fa-book-open"></i>}{https://raw.githubusercontent.com/icweaver/about/main/cv.pdf} |
+\link{<i class="fa fa-book-open"></i>}{/assets/cv.pdf} |
 NASA ADS:
 \link{<i class="fa fa-rocket"></i>}{https://ui.adsabs.harvard.edu/public-libraries/6nMcPukqSpiQq_0Ak7g8sA}
 \end{section}
