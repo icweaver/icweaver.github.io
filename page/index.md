@@ -32,8 +32,8 @@ NASA ADS:
 
 # Tutor-mentor / student matching
 \html{
-<a href="https://github.com/icweaver/onaketa/tree/main/matching" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>
-<a href="https://icweaver.github.io/onaketa/matching/matching.jl.html" target="_blank"><i class="fa fa-book" style="font-size:1.5rem"></i></a>
+<a href="https://github.com/icweaver/Onaketa.jl/tree/main" target="_blank"><i class="fa-brands fa-github" style="font-size:1.5rem"></i></a>
+<a href="https://icweaver.github.io/Onaketa.jl/html/matching.html" target="_blank"><i class="fa fa-book" style="font-size:1.5rem"></i></a>
 }
 
 As a tutor coordinator, I was looking for an efficient way to match tutor-mentors with students. This turned into a fun
