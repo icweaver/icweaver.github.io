@@ -20,7 +20,7 @@ In my free time, I love rowing, participating in \link{STEM outreach}{https://ww
 underrepresented communities, and
 \link{learning more about Julia}{https://exercism.org/profiles/icweaver/testimonials} with other folks!
 
-Resume:
+Résumé:
 \link{<i class="fa fa-rectangle-list"></i>}{/assets/resume.pdf} |
 CV:
 \link{<i class="fa fa-book-open"></i>}{/assets/cv.pdf} |
