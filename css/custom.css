@@ -15,9 +15,9 @@ section { padding: 75px 0; }
 }
 
 /* Add divider before last item in navbar */
-.navbar .navbar-nav .nav-item:is(:last-child) .nav-link {
+/*.navbar .navbar-nav .nav-item:is(:last-child) .nav-link {
   border-left: 2px solid hotpink;
-}
+}*/
 
 a.nav-link.active { color: #faf0e6 !important; }
 
