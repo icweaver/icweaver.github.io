@@ -5,9 +5,11 @@
 \html{<a href="mailto:weaveric@gmail.com" target="_blank"><i class="fa fa-envelope" style="font-size:1.5rem"></i></a>}
 \html{<img align="right" src="/assets/profile.jpg" id="hp" width=20%>}
 
-Hi, I'm Ian, a recent PhD from the \link{Center for Astrophysics | Harvard &
-Smithsonian}{https://pweb.cfa.harvard.edu/}. I focused on studying large exoplanets with \link{large
-telescopes}{https://obs.carnegiescience.edu/Magellan} and writing software to analyze them. I worked on all stages of
+Howdy, I'm Ian.
+
+I did my PhD at the \link{Center for Astrophysics | Harvard &
+Smithsonian}{https://pweb.cfa.harvard.edu/} studying exoplanets with \link{large
+telescopes}{https://obs.carnegiescience.edu/Magellan} and writing software to analyze them. I had the opportunity to work on all stages of
 the process, including extraction and reduction of the raw \link{time series spectral
 data}{http://astro.dur.ac.uk/~knpv27/pg_dr_course/pg_dr_spectroscopy.html}, detrending of potential signals via
 different Gaussian Process \link{(GP)}{https://en.wikipedia.org/wiki/Gaussian_process} and Principal Component Analysis
