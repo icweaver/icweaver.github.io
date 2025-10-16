@@ -46,7 +46,7 @@
                     </p>
                 </div>
                 <figure style="margin: 0">
-                    <img src="assets/profile.jpg" style="object-fit: contain; width: auto; height: 300px">
+                    <img src="assets/profile.jpg" alt="Profile picture" style="object-fit: contain; width: auto; height: 300px">
                 </figure>
             </div>
         </section>
@@ -104,6 +104,20 @@
                     <img src="assets/xy.png" alt="SHO example 2">
                     <figcaption>Top-down view of the same code applied to WASP-12/b (to scale). I waited until a full orbit to turn on the artificial energy loss to mimic one full lap of the accretion stream before colliding with itself. The corners due to the Coriolis force are clearly seen and the orbit settles down into its circularization radius (in green), as predicted from angular momentum conservation. <a href="https://github.com/icweaver/particle_trajectory" target="_blank" rel="noopener noreferrer">[GitHub]</a></figcaption>
                 </figure>
+
+                <figure>
+                    <h2>WASP-12/b 2D</h2>
+                    <video controls>
+                    <source src="assets/dens_2d.mp4">
+                    </video>
+                    <figcaption>An analog to the toy-model from the particle trajectory code above. I replaced the massless test particle in that code with a fluid outflow boundary, following properties adopted from Lai et al. (2010). I then added an artificial ramp up in density at around the 5 day mark to effectively fast-forward the disk to a more evolved state.</figcaption>
+                </figure>
+
+                <figure>
+                    <h2>WASP-12/b 3D </h2>
+                    <img src="assets/3d_disk.png" alt="W12 3D example">
+                    <figcaption>I adapted the hydro simulation to 3D to create the image above. This is an isodensity contour plot taken partway through the simulation. The location of L1 can be seen as the orange-yellow sphere towards the bottom left. These simulations were used to create virtual light curves to compare with observations from HST's Cosmic Origins Spectrograph.</figcaption>
+                </figure>
             </div>
         </section>
 
@@ -140,10 +154,10 @@
             <p>We present a new ground-based visual transmission spectrum of the hot Jupiter WASP-43b, obtained as part of ACCESS. We collected four transits observed between 2015 and 2018, with a combined wavelength coverage between 5300 and 9000 Å and an average photometric precision of 708 ppm in 230 Å bins. We perform an atmospheric retrieval of our transmission spectrum combined with literature Hubble Space Telescope/WFC3 observations to search for the presence of clouds/hazes as well as Na, K, Hα, and H₂O planetary absorption and stellar spot contamination. We do not detect a statistically significant presence of Na I or K I alkali lines, or Hα in the atmosphere of WASP-43b. We find that the observed transmission spectrum can be best explained by a combination of heterogeneities on the photosphere of the host star and a clear planetary atmosphere with water. <a href="https://github.com/icweaver/ACCESS_notebook" target="_blank" rel="noopener noreferrer">[GitHub]</a></p>
         </section>
         <div>
-            <img src="assets/c_and_h_banner.jpeg" style="width: 100%; height: auto; display: block">
+            <img src="assets/c_and_h_banner.jpeg" alt="Banner image" style="width: 100%; height: auto; display: block">
         </div>
-        <section style="background-color: #274480">
-            <p style="text-align: center">Website: © Ian C. Weaver 2025. Banner image credit: © Bill Watterson</p>
-        </section>
+        <div style="background-color: #274480">
+            <p style="color: darkgrey; text-align: center; padding-top: 4rem; padding-bottom: 2rem; margin: 0">Website: © Ian C. Weaver 2025. Banner image credit: © Bill Watterson</p>
+        </div>
     </body>
 </html>
