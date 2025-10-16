@@ -9,8 +9,8 @@
             h1, h2, p, figcaption {color: #faf0e6}
             section {padding: 2rem}
             section h1 {margin-block: 0.67em; font-size: 2em}
-            .grid {display: grid; grid-template-columns: 1fr; gap: 1.5rem}
-            .grid figure {display: flex; flex-direction: column; margin: 1.5rem}
+            .grid {display: grid; grid-template-columns: 1fr}
+            .grid figure {display: flex; flex-direction: column}
             .grid img, video {width: 100%; height: 300px; object-fit:cover; border-radius:8px}
             @media (min-width: 800px) {
                 .grid {grid-template-columns: 1fr 1fr}
@@ -53,7 +53,7 @@
                 </figure>
 
                 <figure>
-                    <h2>System parameters calculator<a href="https://github.com/icweaver/ExoCalc.jl" target="_blank" rel="noopener noreferrer">[GitHub]</a><a href="https://icweaver.github.io/ExoCalc.jl/" target="_blank" rel="noopener noreferrer">[Notebook]</a></h2>
+                    <h2>System parameters calculator <a href="https://github.com/icweaver/ExoCalc.jl" target="_blank" rel="noopener noreferrer">[GitHub]</a><a href="https://icweaver.github.io/ExoCalc.jl/" target="_blank" rel="noopener noreferrer">[Notebook]</a></h2>
                     <img src="assets/exocalc.png">
                     <figcaption>Self-consistent computations of exoplanet parameters from stellar and orbital observations. Useful for estimating the potential observability of an exoplanet's atmopshere.</figcaption>
                 </figure>
@@ -67,9 +67,23 @@
                 </figure>
 
                 <figure>
-                    <h2>Population dynamics<a href="https://github.com/icweaver/ExoCalc.jl" target="_blank" rel="noopener noreferrer">[GitHub]</a><a href="https://icweaver.github.io/ExoCalc.jl/" target="_blank" rel="noopener noreferrer">[Notebook]</a></h2>
-                    <img src="assets/exocalc.png">
+                    <h2>Population dynamics <a href="https://github.com/icweaver/ExoCalc.jl" target="_blank" rel="noopener noreferrer">[GitHub]</a><a href="https://icweaver.github.io/ExoCalc.jl/" target="_blank" rel="noopener noreferrer">[Notebook]</a></h2>
+                    <video controls>
+                    <source src="assets/ecology.mp4">
+                    <video>
                     <figcaption>The same integration method applied to the Lotka–Volterra system of differential equations describing population growth.</figcaption>
+                </figure>
+
+                <figure>
+                    <h2>Artificial energy loss <a href="https://github.com/icweaver/particle_trajectory" target="_blank" rel="noopener noreferrer">[GitHub]</a></h2>
+                    <img src="assets/sho_inertial_3D.gif">
+                    <figcaption>Particle stream trajectory in a binary Roche Potential with artificial energy loss every time step to mimic the energy that is lost to shocks and other collisions in real fluid interactions. This was done by having the test particle lose energy while maintaining its angular momentum. I also added a little kick in the z component of the particle's initial velocity to make it a little more fun to watch.</figcaption>
+                </figure>
+
+                <figure>
+                    <h2>WASP-12/b system <a href="https://github.com/icweaver/particle_trajectory" target="_blank" rel="noopener noreferrer">[GitHub]</a></h2>
+                    <img src="assets/xy.png">
+                    <figcaption>Top-down view of the same code applied to WASP-12/b (to scale). I waited until a full orbit to turn on the artificial energy loss to mimic one full lap of the accretion stream before colliding with itself. The corners due to the Coriolis force are clearly seen and the orbit settles down into its circularization radius (in green), as predicted from angular momentum conservation.</figcaption>
                 </figure>
             </div>
         </section>
