@@ -5,65 +5,71 @@
         <title>Dr. Ian</title>
         <style>
             nav {position: sticky; top: 0; height: 3rem; background-color: Black; opacity: 0.5}
-            html, body {scroll-padding-top: 3rem; margin: 0}
+            html, body {scroll-padding-top: 3rem; margin: 0; font-family: sans-serif}
             h1, h2, p, figcaption {color: #faf0e6}
             section {padding: 2rem}
             section h1 {margin-block: 0.67em; font-size: 2em}
-            .grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem}
+            .grid {display: grid; grid-template-columns: 1fr; gap: 1.5rem}
             .grid figure {display: flex; flex-direction: column; margin: 1.5rem}
-            .grid img {width: 100%; height: 250px; object-fit:cover; border-radius:8px}
+            .grid img, video {width: 100%; height: 300px; object-fit:cover; border-radius:8px}
+            @media (min-width: 800px) {
+                .grid {grid-template-columns: 1fr 1fr}
+            }
         </style>
     </head>
 
     <body>
         <nav>
+            <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#research">Research</a>
         </nav>
 
-        <section style="background-color: #5e42a6">
+        <section id="about" style="background-color: #5e42a6">
+            <h1>Ian C. Weaver, Ph.D.</h1>
             <p>Howdy, I'm Ian.</p>
             <p>I did my PhD at the Center for Astrophysics | Harvard &amp; Smithsonian studying the atmospheres of large exoplanets and writing software to help analyze them. I had the opportunity to work on all stages of the process, including observing with large ground-based observatories, extracting and reducing time series of raw spectral data, detrending of potential signals via different Gaussian Process (GP) and Principal Component Analysis (PCA) techniques, and model fitting with a range of statistical Bayesian inference frameworks including Markov Chain Monte Carlo (MCMC) and nested sampling to study the atmospheres of these other worlds.</p>
-            <p>I currently serve as an education and outreach astronomer for the Carl Sagan Center for Research at SETI. In my free time, I like to row on Lake Merritt, help maintain JuliaAstro and other open source projects, and help run the education non-profit, Onaketa: a program dedicated to supporting Black and Brown youth in STEM.</p>
+            <p>I currently serve as an education and outreach astronomer for the Carl Sagan Center for Research at SETI. In my free time, I like to row on Lake Merritt, help maintain JuliaAstro and other open source projects, and help run Onaketa: an education non-profit dedicated to supporting Black and Brown youth in STEM.</p>
         </section>
 
         <section id="projects" style="background-color:#b74e91">
             <div class="grid">
                 <figure>
-                    <h2>Tutor-student matching <a href="https://github.com/icweaver/Onaketa.jl" target="_blank" rel="noopener noreferrer">[GitHub]</a></h2>
-                    <img src="assets/scheduler.png">
-                    <figcaption>This tool automatically downloads, extracts, and post-processes schedule availabilities from WhenIsGood responses to display the intersections between available dates/times for all tutor-mentor / student combinations. A handy tooltip also displays the overlapping times for a given tutor-mentor / student pair, which is automatically copied to the clipboard at the click of a mouse.</figcaption>
+                    <h2>Astroalign.jl <a href="https://github.com/JuliaAstro/Astroalign.jl" target="_blank" rel="noopener noreferrer">[GitHub]</a><a href="https://juliaastro.org/Astroalign.jl/notebook.html" target="_blank" rel="noopener noreferrer">[Notebook]</a></h2></h2>
+                    <img src="assets/astroalign.png">
+                    <figcaption>A pure Julia implementation of astroalign to efficiently align astronomical images via asterism matching when available. This circumvents the expensive step of initially WCS plate solving your images.</figcaption>
                 </figure>
+
                 <figure>
                     <h2>Tutor-student matching <a href="https://github.com/icweaver/Onaketa.jl" target="_blank" rel="noopener noreferrer">[GitHub]</a></h2>
                     <img src="assets/scheduler.png">
                     <figcaption>This tool automatically downloads, extracts, and post-processes schedule availabilities from WhenIsGood responses to display the intersections between available dates/times for all tutor-mentor / student combinations. A handy tooltip also displays the overlapping times for a given tutor-mentor / student pair, which is automatically copied to the clipboard at the click of a mouse.</figcaption>
                 </figure>
-            </div>
 
-            <div class="grid">
                 <figure>
                     <h2>Exoplanet locator <a href="https://github.com/icweaver/Pluto_sample_notebooks/blob/main/astroimages.jl" target="_blank" rel="noopener noreferrer">[GitHub]</a><a href="https://icweaver.github.io/Pluto_sample_notebooks/astroimages.html" target="_blank" rel="noopener noreferrer">[Notebook]</a></h2>
                     <img src="assets/constellations.svg">
                     <figcaption>A groovy exoplanet sky chart created with data queried from the exoplanet archive, bright star locations from the Hipparcos, Yale Bright Star, Gliese (HYG) database, and asterisms from the Stellarium public repo.</figcaption>
                 </figure>
-                <figure>
-                    <h2>System parameters calculator<a href="https://github.com/icweaver/ExoCalc.jl" target="_blank" rel="noopener noreferrer">[GitHub]</a><a href="https://icweaver.github.io/ExoCalc.jl/" target="_blank" rel="noopener noreferrer">[Notebook]</a></h2>
-                    <img src="assets/exocalc.png">
-                    <figcaption>Self-consistent computations of exoplanet parameters from stellar and orbital observations. Useful for estimating the potential observability of an exoplanet's atmopshere.</figcaption>
-                </figure>
-            </div>
 
-            <div class="grid">
-                <figure>
-                    <h2>Exoplanet locator <a href="https://github.com/icweaver/Pluto_sample_notebooks/blob/main/astroimages.jl" target="_blank" rel="noopener noreferrer">[GitHub]</a><a href="https://icweaver.github.io/Pluto_sample_notebooks/astroimages.html" target="_blank" rel="noopener noreferrer">[Notebook]</a></h2>
-                    <img src="assets/constellations.svg">
-                    <figcaption>A groovy exoplanet sky chart created with data queried from the exoplanet archive, bright star locations from the Hipparcos, Yale Bright Star, Gliese (HYG) database, and asterisms from the Stellarium public repo.</figcaption>
-                </figure>
                 <figure>
                     <h2>System parameters calculator<a href="https://github.com/icweaver/ExoCalc.jl" target="_blank" rel="noopener noreferrer">[GitHub]</a><a href="https://icweaver.github.io/ExoCalc.jl/" target="_blank" rel="noopener noreferrer">[Notebook]</a></h2>
                     <img src="assets/exocalc.png">
                     <figcaption>Self-consistent computations of exoplanet parameters from stellar and orbital observations. Useful for estimating the potential observability of an exoplanet's atmopshere.</figcaption>
+                </figure>
+
+                <figure>
+                    <h2>Orbital trajectories <a href="https://github.com/icweaver/Pluto_sample_notebooks/blob/main/astroimages.jl" target="_blank" rel="noopener noreferrer">[GitHub]</a><a href="https://icweaver.github.io/Pluto_sample_notebooks/astroimages.html" target="_blank" rel="noopener noreferrer">[Notebook]</a></h2>
+                    <video controls>
+                    <source src="assets/exo-moon.mp4">
+                    <video>
+                    <figcaption>Integrated orbit of a hypothetical three-body star-planet-moon system via s=2 Adams-Moulton method. This is motivated by the first potential discovery of an exomoon made not too long ago.</figcaption>
+                </figure>
+
+                <figure>
+                    <h2>Population dynamics<a href="https://github.com/icweaver/ExoCalc.jl" target="_blank" rel="noopener noreferrer">[GitHub]</a><a href="https://icweaver.github.io/ExoCalc.jl/" target="_blank" rel="noopener noreferrer">[Notebook]</a></h2>
+                    <img src="assets/exocalc.png">
+                    <figcaption>The same integration method applied to the Lotka–Volterra system of differential equations describing population growth.</figcaption>
                 </figure>
             </div>
         </section>
