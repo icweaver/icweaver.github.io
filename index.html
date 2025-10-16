@@ -11,11 +11,15 @@
             section h1 {margin-block: 0.67em; font-size: 2em}
             a {color: #fcc133}
             a:hover {color: hotpink}
+            .grid-one {display: grid; grid-template-columns: 1fr; border-radius: 8px; justify-items: center}
+            .grid-one img {border-radius: 8px}
             .grid {display: grid; grid-template-columns: 1fr; background-color: rgba(0, 0, 0, 0.4); border-radius:8px}
             .grid figure {display: flex; flex-direction: column}
             .grid img, video {width: 100%; height: 300px; object-fit: cover; border-radius: 8px}
             @media (min-width: 800px) {
                 .grid {grid-template-columns: 1fr 1fr}
+                .grid-one {grid-template-columns: 2fr 1fr; justify-items: right}
+                .grid-one img {border-radius: 8px}
             }
         </style>
     </head>
@@ -28,16 +32,22 @@
 
         <section id="about" style="background-color: #5e42a6">
             <h1>Ian C. Weaver, Ph.D.</h1>
-            <div class="grid" style="background-color: inherit; align-items: center; justify-items: center">
-            <p>
-                Howdy, I'm Ian.<br><br>
-                I did my PhD at the <a href="https://pweb.cfa.harvard.edu/" target="_blank" rel="noopener noreferrer">Center for Astrophysics | Harvard &amp; Smithsonian</a> studying the atmospheres of large exoplanets and writing software to help analyze them. I had the opportunity to work on all stages of the process, including observing with large ground-based observatories, extracting and reducing time series of raw spectral data, detrending of potential signals via different Gaussian Process (GP) and Principal Component Analysis (PCA) techniques, and model fitting with a range of statistical Bayesian inference frameworks including Markov Chain Monte Carlo (MCMC) and nested sampling to study the atmospheres of these other worlds.<br><br>
-                I currently serve as an education and outreach astronomer for the <a href="https://www.seti.org/research/" target="_blank" rel="noopener noreferrer">Carl Sagan Center for Research at SETI</a>. In my free time, I like to row on Lake Merritt, help maintain <a href="https://juliaastro.org" target="_blank" rel="noopener noreferrer">JuliaAstro</a> and other <a href="https://github.com/pulls?q=author%3Aicweaver" target="_blank" rel="noopener noreferrer">open source projects</a>, and help run <a href="https://www.onaketa.org/" target="_blank" rel="noopener noreferrer">Onaketa</a>: an education non-profit dedicated to supporting Black and Brown youth in STEM.<br><br>
-                <a href="https://icweaver.github.io/assets/resume.pdf" target="_blank" rel="noopener noreferrer">Résumé</a>
-                <a href="https://icweaver.github.io/assets/cv.pdf" target="_blank" rel="noopener noreferrer">CV</a>
-                <a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-6205-6315&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank" rel="noopener noreferrer">NASA ADS</a>
-            </p>
-            <img src="assets/profile.jpg" style="object-fit: contain; width: auto; height: 300px">
+            <div class="grid-one" style="background-color: inherit; align-items: center">
+                <div>
+                    <p>
+                        Howdy, I'm Ian.<br><br>
+                        I did my PhD at the <a href="https://pweb.cfa.harvard.edu/" target="_blank" rel="noopener noreferrer">Center for Astrophysics | Harvard &amp; Smithsonian</a> studying the atmospheres of large exoplanets and writing software to help analyze them. I had the opportunity to work on all stages of the process, including observing with large ground-based observatories, extracting and reducing time series of raw spectral data, detrending of potential signals via different Gaussian Process (GP) and Principal Component Analysis (PCA) techniques, and model fitting with a range of statistical Bayesian inference frameworks including Markov Chain Monte Carlo (MCMC) and nested sampling to study the atmospheres of these other worlds.<br><br>
+                        I currently serve as an education and outreach astronomer for the <a href="https://www.seti.org/research/" target="_blank" rel="noopener noreferrer">Carl Sagan Center for Research at SETI</a>. In my free time, I like to row on Lake Merritt, help maintain <a href="https://juliaastro.org" target="_blank" rel="noopener noreferrer">JuliaAstro</a> and other <a href="https://github.com/pulls?q=author%3Aicweaver" target="_blank" rel="noopener noreferrer">open source projects</a>, and help run <a href="https://www.onaketa.org/" target="_blank" rel="noopener noreferrer">Onaketa</a>: an education non-profit dedicated to supporting Black and Brown youth in STEM.<br><br>
+                    </p>
+                    <p style="text-align: center">
+                        <a href="https://icweaver.github.io/assets/resume.pdf" target="_blank" rel="noopener noreferrer">Résumé</a>
+                        <a href="https://icweaver.github.io/assets/cv.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+                        <a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-6205-6315&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank" rel="noopener noreferrer">NASA ADS</a>
+                    </p>
+                </div>
+                <figure style="margin: 0">
+                    <img src="assets/profile.jpg" style="object-fit: contain; width: auto; height: 300px">
+                </figure>
             </div>
         </section>
 
